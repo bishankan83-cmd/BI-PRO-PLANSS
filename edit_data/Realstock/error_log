@@ -1,0 +1,43 @@
+[02-Jan-2025 09:09:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/edit_data/Realstock/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Realstock/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/Realstock/index.php(2): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/Realstock/db.php on line 7
+[02-Jan-2025 09:10:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/edit_data/Realstock/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Realstock/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/Realstock/index.php(2): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/Realstock/db.php on line 7
+[02-Jan-2025 09:11:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'localhost' (using password: YES) in /home/planatir/public_html/edit_data/Realstock/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Realstock/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/Realstock/index.php(2): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/Realstock/db.php on line 7
+[02-Jan-2025 09:11:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'localhost' (using password: YES) in /home/planatir/public_html/edit_data/Realstock/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Realstock/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/Realstock/index.php(2): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/Realstock/db.php on line 7
+[04-Jan-2025 17:04:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Realstock/edit.php on line 28
+[04-Jan-2025 17:04:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Realstock/edit.php on line 31
+[04-Jan-2025 17:04:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Realstock/edit.php on line 34
+[04-Jan-2025 17:04:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Realstock/edit.php on line 37
+[04-Jan-2025 17:04:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Realstock/edit.php on line 40
+[04-Jan-2025 17:04:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Realstock/edit.php on line 43
+[04-Jan-2025 17:04:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Realstock/edit.php on line 46
+[28-Apr-2025 06:35:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/planatir/public_html/edit_data/Realstock/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Realstock/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/Realstock/index.php(20): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/Realstock/db.php on line 7
+[28-Apr-2025 06:35:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/planatir/public_html/edit_data/Realstock/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Realstock/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/Realstock/index.php(20): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/Realstock/db.php on line 7

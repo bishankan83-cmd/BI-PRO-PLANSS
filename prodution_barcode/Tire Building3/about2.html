@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .output {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .output strong {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>QR Code Scanner</h1>
+    <form method="POST">
+        <input 
+            type="text" 
+            id="qrInput" 
+            name="qrData" 
+            placeholder="Scan QR Code here" 
+            autofocus 
+            onfocus="this.select();" 
+            required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <?php
+    // Mock database rows for demonstration
+    $row = [
+        'compound_name' => 'Compound123',
+        'batch' => 'Batch456'
+    ];
+
+    // Generate formatted QR data for the database row
+    $formattedData = '|CN-' . $row['compound_name'] . ', |BN-' . $row['batch'];
+
+    // Handle form submission
+    if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['qrData'])) {
+        $qrData = htmlspecialchars($_POST['qrData']); // Secure against XSS
+
+        // Validate QR data against the formatted data
+        if ($qrData === $formattedData) {
+            echo "<div class='output'>Match Found!</div>";
+            echo "<div class='output'>Compound Name (CN): <strong>{$row['compound_name']}</strong></div>";
+            echo "<div class='output'>Batch Number (BN): <strong>{$row['batch']}</strong></div>";
+        } else {
+            echo "<div class='output'>No match found for the provided QR code.</div>";
+            echo "<div class='output'>Expected Format: <strong>{$formattedData}</strong></div>";
+        }
+    }
+    ?>
+
+    <script>
+        // Automatically focus the input field for scanning
+        document.getElementById('qrInput').focus();
+    </script>
+</body>
+</html>

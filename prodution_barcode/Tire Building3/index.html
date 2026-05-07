@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATIRE — Shift Login</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --o:        #F28018;
+  --o-dark:   #d86d0f;
+  --o-glow:   rgba(242,128,24,0.3);
+  --o-soft:   rgba(242,128,24,0.07);
+  --o-border: rgba(242,128,24,0.25);
+  --black:    #080808;
+  --dark:     #0f0f0f;
+  --card:     #141414;
+  --card2:    #1a1a1a;
+  --border:   #202020;
+  --border2:  #2a2a2a;
+  --text:     #efefef;
+  --muted:    #777;
+  --subtle:   #444;
+  --white:    #ffffff;
+  --success:  #2ecc71;
+  --danger:   #e74c3c;
+  --r:        10px;
+  --r2:       16px;
+}
+
+html, body {
+  min-height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--black);
+  color: var(--text);
+}
+
+/* ─── GRID LINES BG ─── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(242,128,24,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(242,128,24,0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ─── RADIAL GLOW BG ─── */
+body::after {
+  content: '';
+  position: fixed;
+  top: -30%;
+  right: -20%;
+  width: 70vw;
+  height: 70vw;
+  background: radial-gradient(circle, rgba(242,128,24,0.07) 0%, transparent 65%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ══════════════════════════════
+   PAGE LAYOUT
+══════════════════════════════ */
+.page {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── TOP BAR ─── */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 68px;
+  background: rgba(10,10,10,0.9);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-sq {
+  width: 40px; height: 40px;
+  background: var(--o);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+  box-shadow: 0 4px 16px var(--o-glow);
+}
+.logo-sq img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+
+.brand-wrap { display: flex; flex-direction: column; }
+.brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.12em;
+  color: var(--white);
+  line-height: 1;
+}
+.brand-sub {
+  font-size: 0.6rem;
+  color: var(--muted);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+.topbar-r {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.badge-online {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  font-family: 'Space Mono', monospace;
+}
+.dot-green {
+  width: 8px; height: 8px;
+  background: var(--success);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--success);
+  animation: pulse-green 2s infinite;
+}
+@keyframes pulse-green {
+  0%,100% { opacity:1; box-shadow: 0 0 6px var(--success); }
+  50%      { opacity:.5; box-shadow: 0 0 14px var(--success); }
+}
+
+.clock {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--o);
+  letter-spacing: 0.06em;
+}
+
+/* ══════════════════════════════
+   MAIN — single column centered
+══════════════════════════════ */
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+}
+
+/* ─── PANEL ─── */
+.panel {
+  width: 100%;
+  max-width: 560px;
+  position: relative;
+  animation: panel-in 0.5s cubic-bezier(0.22,1,0.36,1) both;
+}
+
+@keyframes panel-in {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── HEADING AREA ─── */
+.panel-head {
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.auth-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--o-soft);
+  border: 1px solid var(--o-border);
+  border-radius: 999px;
+  padding: 6px 16px;
+  margin-bottom: 20px;
+}
+.auth-badge-dot {
+  width: 6px; height: 6px;
+  background: var(--o);
+  border-radius: 50%;
+  box-shadow: 0 0 6px var(--o);
+  animation: pulse-orange 1.8s infinite;
+}
+@keyframes pulse-orange {
+  0%,100% { box-shadow: 0 0 4px var(--o); }
+  50%      { box-shadow: 0 0 12px var(--o); }
+}
+.auth-badge-text {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--o);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.panel-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(4rem, 10vw, 6.5rem);
+  line-height: 0.88;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.panel-title .t1 { display: block; }
+.panel-title .t2 {
+  display: block;
+  -webkit-text-stroke: 1.5px var(--border2);
+  color: transparent;
+  letter-spacing: 0.1em;
+}
+.panel-title .t-o { color: var(--o); }
+
+.panel-sub {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
+
+/* ─── DIVIDER ─── */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, var(--o), transparent);
+  margin: 28px 0;
+  opacity: 0.4;
+}
+
+/* ─── LOAD BAR ─── */
+.load-bar {
+  height: 2px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+.load-bar.on::after {
+  content: '';
+  position: absolute;
+  left: -50%; width: 50%; height: 100%;
+  background: linear-gradient(90deg, transparent, var(--o), transparent);
+  animation: slide-bar 0.9s infinite;
+}
+@keyframes slide-bar { to { left: 150%; } }
+
+/* ─── SHIFT FOUND BOX ─── */
+.shift-found-box {
+  display: none;
+  background: var(--card);
+  border: 1px solid var(--border2);
+  border-left: 3px solid var(--o);
+  border-radius: var(--r2);
+  padding: 18px 22px;
+  margin-bottom: 20px;
+  animation: box-in 0.3s ease both;
+}
+.shift-found-box.show { display: block; }
+
+@keyframes box-in {
+  from { opacity:0; transform: translateY(-6px); }
+  to   { opacity:1; transform: translateY(0); }
+}
+
+.sfb-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.sfb-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sfb-pulsedot {
+  width: 8px; height: 8px;
+  background: var(--o);
+  border-radius: 50%;
+  animation: pulse-orange 1.5s infinite;
+  flex-shrink: 0;
+}
+.sfb-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--o);
+}
+.sfb-count {
+  font-size: 0.66rem;
+  color: var(--muted);
+  background: var(--border2);
+  border-radius: 999px;
+  padding: 3px 11px;
+  font-family: 'Space Mono', monospace;
+}
+.sfb-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.sfb-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(242,128,24,0.12);
+  border: 1px solid rgba(242,128,24,0.3);
+  color: var(--o);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+.sfb-note {
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.7;
+  font-weight: 300;
+}
+.sfb-note strong { color: var(--text); font-weight: 600; }
+
+/* ─── UPDATE NOTICE ─── */
+.update-notice-box {
+  display: none;
+  background: linear-gradient(135deg, rgba(242,128,24,0.08), rgba(242,128,24,0.03));
+  border: 1px solid rgba(242,128,24,0.35);
+  border-left: 3px solid var(--o);
+  border-radius: var(--r2);
+  padding: 16px 20px;
+  margin-bottom: 18px;
+  animation: box-in 0.25s ease both;
+}
+.update-notice-box.show { display: block; }
+.un-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.un-icon {
+  width: 22px; height: 22px;
+  background: var(--o);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.7rem;
+  color: #fff;
+  flex-shrink: 0;
+  font-weight: 900;
+}
+.un-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--o);
+}
+.un-body { font-size: 0.8rem; color: var(--muted); line-height: 1.7; font-weight: 300; }
+.un-body strong { color: var(--text); font-weight: 600; }
+
+/* ═══════════════════════════════
+   FORM FIELDS
+═══════════════════════════════ */
+.field { margin-bottom: 22px; }
+
+.flabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+  font-family: 'DM Sans', sans-serif;
+}
+.flabel-note {
+  font-size: 0.65rem;
+  color: var(--o);
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  background: var(--o-soft);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.finput, .fselect {
+  width: 100%;
+  padding: 16px 20px;
+  background: var(--card);
+  border: 1px solid var(--border2);
+  border-radius: var(--r2);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.finput:focus, .fselect:focus {
+  outline: none;
+  border-color: var(--o);
+  box-shadow: 0 0 0 4px var(--o-glow);
+  background: var(--card2);
+}
+.finput::-webkit-calendar-picker-indicator {
+  filter: invert(1) opacity(0.35);
+  cursor: pointer;
+}
+.fselect {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23666' d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  cursor: pointer;
+}
+.fselect option { background: var(--card); color: var(--text); }
+
+.fselect.error-flash {
+  border-color: var(--danger);
+  box-shadow: 0 0 0 4px rgba(231,76,60,0.25);
+  animation: shake 0.4s ease;
+}
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  25%      { transform: translateX(-6px); }
+  75%      { transform: translateX(6px); }
+}
+
+/* ═══════════════════════════════
+   CHIPS
+═══════════════════════════════ */
+.chips-hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.chips-lbl {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  font-family: 'DM Sans', sans-serif;
+}
+.chips-note {
+  font-size: 0.68rem;
+  color: var(--o);
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+.chips {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.chip {
+  background: var(--card);
+  border: 1px solid var(--border2);
+  border-radius: var(--r);
+  padding: 14px 6px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.22,1,0.36,1);
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+}
+
+.chip-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(242,128,24,0.2), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.chip:hover { border-color: var(--o); transform: translateY(-3px); }
+.chip:hover .chip-glow { opacity: 1; }
+.chip:active { transform: translateY(0) scale(0.97); }
+
+.chip.active {
+  border-color: var(--o);
+  background: var(--card2);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px var(--o-glow), inset 0 0 0 1px rgba(242,128,24,0.2);
+}
+.chip.active .chip-glow { opacity: 1; }
+.chip.active .chip-t,
+.chip.active .chip-b { color: var(--o); }
+
+.chip.existing {
+  border-color: #e6a817;
+  background: rgba(230,168,23,0.08);
+  box-shadow: 0 0 12px rgba(230,168,23,0.15);
+}
+.chip.existing .chip-t,
+.chip.existing .chip-b { color: #e6a817; }
+
+.chip-t {
+  display: block;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  transition: color 0.2s;
+  position: relative;
+  z-index: 1;
+  font-family: 'DM Sans', sans-serif;
+}
+.chip-b {
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem;
+  color: var(--muted);
+  line-height: 1;
+  margin-top: 3px;
+  transition: color 0.2s;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.04em;
+}
+
+/* ═══════════════════════════════
+   SUBMIT BUTTON
+═══════════════════════════════ */
+.btn-area { margin-top: 6px; }
+
+.btn-primary {
+  width: 100%;
+  padding: 20px 32px;
+  background: var(--o);
+  color: #fff;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2em;
+  border: none;
+  border-radius: var(--r2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s cubic-bezier(0.22,1,0.36,1);
+  box-shadow: 0 6px 28px var(--o-glow), inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.btn-primary:hover {
+  background: var(--o-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 36px rgba(242,128,24,0.5), inset 0 1px 0 rgba(255,255,255,0.15);
+}
+.btn-primary:active { transform: translateY(-1px); }
+.btn-primary:disabled {
+  background: var(--subtle);
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-primary.mode-update {
+  background: linear-gradient(120deg, var(--o) 0%, #e07010 100%);
+}
+
+.shine {
+  position: absolute;
+  top: -50%; left: -80%;
+  width: 50%; height: 200%;
+  background: linear-gradient(105deg, transparent 20%, rgba(255,255,255,0.18) 50%, transparent 80%);
+  transform: skewX(-18deg);
+  transition: left 0.7s ease;
+  pointer-events: none;
+}
+.btn-primary:hover .shine { left: 140%; }
+
+.btn-arrow {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  transition: transform 0.2s;
+  line-height: 1;
+}
+.btn-primary:hover .btn-arrow { transform: translateX(4px); }
+
+/* ─── META ROW ─── */
+.meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.7rem;
+  color: var(--subtle);
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 0.06em;
+}
+.meta-item-dot {
+  width: 5px; height: 5px;
+  background: var(--success);
+  border-radius: 50%;
+  box-shadow: 0 0 5px var(--success);
+}
+
+/* ══════════════════════════════
+   FOOTER
+══════════════════════════════ */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 54px;
+  background: rgba(10,10,10,0.9);
+  border-top: 1px solid var(--border);
+  font-size: 0.66rem;
+  color: var(--subtle);
+  letter-spacing: 0.08em;
+  font-family: 'Space Mono', monospace;
+  backdrop-filter: blur(12px);
+}
+.f-sep { margin: 0 8px; color: var(--border2); }
+
+/* ══════════════════════════════
+   RESPONSIVE
+══════════════════════════════ */
+@media (max-width: 600px) {
+  .topbar { padding: 0 20px; }
+  .main { padding: 32px 20px; }
+  .footer { padding: 0 20px; flex-direction: column; height: auto; padding: 14px 20px; gap: 4px; }
+  .chips { grid-template-columns: repeat(3, 1fr); }
+  .badge-online { display: none; }
+  .panel-title { font-size: 3.5rem; }
+  .chip-b { font-size: 1.5rem; }
+  .btn-primary { font-size: 1.3rem; padding: 18px; }
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <div class="logo-row">
+      
+        <img src="atire.png" alt="ATIRE">
+       
+     
+      
+    </dIV>
+    <div class="topbar-r">
+      <div class="badge-online">
+        <span class="dot-green"></span>SYSTEM ONLINE
+      </div>
+      <div class="clock" id="clock">00:00:00</div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <div class="main">
+    <div class="panel">
+
+      <!-- HEADING -->
+      <div class="panel-head">
+        
+
+        
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- LOAD BAR -->
+      <div class="load-bar" id="loadBar"></div>
+
+      <!-- SHIFT FOUND BOX -->
+      <div class="shift-found-box" id="shiftFoundBox">
+        <div class="sfb-head">
+          <div class="sfb-title-row">
+            <span class="sfb-pulsedot"></span>
+            <span class="sfb-title" id="sfbTitle">Shift Already Logged</span>
+          </div>
+          <span class="sfb-count" id="sfbCount">—</span>
+        </div>
+        <div class="sfb-tags" id="sfbTags"></div>
+        <div class="sfb-note">
+          A shift is already recorded for this date. Click <strong>ENTER SYSTEM</strong> to continue, or select a different shift to log a new one.
+        </div>
+      </div>
+
+      <!-- UPDATE NOTICE -->
+      <div class="update-notice-box" id="updateNoticeBox">
+        <div class="un-head">
+          <div class="un-icon">↻</div>
+          <div class="un-title">Shift Will Be Updated</div>
+        </div>
+        <div class="un-body" id="updateNoticeBody">—</div>
+      </div>
+
+      <!-- FORM -->
+      <form action="save_shift.php" method="POST" id="loginForm">
+
+        <div class="field">
+          <label class="flabel" for="logDate">
+            Logging Date
+            <span class="flabel-note" id="dateNote"></span>
+          </label>
+          <input type="date" id="logDate" name="logDate" class="finput" required>
+        </div>
+
+        <div class="field">
+          <label class="flabel" for="shift">Shift Assignment</label>
+          <select id="shift" name="shift" class="fselect" required>
+            <option value="">— Select Shift —</option>
+            <option value="DAY A">DAY A</option>
+            <option value="DAY B">DAY B</option>
+            <option value="DAY C">DAY C</option>
+            <option value="NIGHT A">NIGHT A</option>
+            <option value="NIGHT B">NIGHT B</option>
+            <option value="NIGHT C">NIGHT C</option>
+          </select>
+        </div>
+
+        <!-- CHIPS -->
+        <div class="chips-hdr">
+          <span class="chips-lbl">Quick Select</span>
+          <span class="chips-note" id="chipsNote"></span>
+        </div>
+        <div class="chips">
+          <div class="chip" data-val="DAY A">
+            <div class="chip-glow"></div>
+            <span class="chip-t">Day</span><span class="chip-b">A</span>
+          </div>
+          <div class="chip" data-val="DAY B">
+            <div class="chip-glow"></div>
+            <span class="chip-t">Day</span><span class="chip-b">B</span>
+          </div>
+          <div class="chip" data-val="DAY C">
+            <div class="chip-glow"></div>
+            <span class="chip-t">Day</span><span class="chip-b">C</span>
+          </div>
+          <div class="chip" data-val="NIGHT A">
+            <div class="chip-glow"></div>
+            <span class="chip-t">Ngt</span><span class="chip-b">A</span>
+          </div>
+          <div class="chip" data-val="NIGHT B">
+            <div class="chip-glow"></div>
+            <span class="chip-t">Ngt</span><span class="chip-b">B</span>
+          </div>
+          <div class="chip" data-val="NIGHT C">
+            <div class="chip-glow"></div>
+            <span class="chip-t">Ngt</span><span class="chip-b">C</span>
+          </div>
+        </div>
+
+        <!-- Hidden -->
+        <input type="hidden" name="mode"          id="modeField"          value="new">
+        <input type="hidden" name="existingShift" id="existingShiftField" value="">
+
+        <!-- BUTTON -->
+        <div class="btn-area">
+          <button type="button" class="btn-primary" id="submitBtn" onclick="handleMainBtn()">
+            <span class="shine"></span>
+            <span id="btnLabel">ENTER SYSTEM</span>
+            <span class="btn-arrow">→</span>
+          </button>
+        </div>
+
+        <!-- META -->
+        <div class="meta-row">
+          <div class="meta-item">
+            <span class="meta-item-dot"></span>
+            <span id="heroDate">—</span>
+          </div>
+          <div class="meta-item">SECURE CHANNEL</div>
+          <div class="meta-item">v2.4.1</div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 ATIRE SOFTWARE DEVELOPMENT</span>
+    <span>QR SYSTEM<span class="f-sep">·</span>v2.4.1<span class="f-sep">·</span>BUILD 2026</span>
+  </footer>
+
+</div>
+
+<script>
+const pad = n => String(n).padStart(2,'0');
+const MON = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+const $   = id => document.getElementById(id);
+
+/* Clock */
+(function tick() {
+  const n = new Date();
+  $('clock').textContent = `${pad(n.getHours())}:${pad(n.getMinutes())}:${pad(n.getSeconds())}`;
+  setTimeout(tick, 1000);
+})();
+
+/* Today */
+const now      = new Date();
+const todayISO = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
+$('logDate').value        = todayISO;
+$('heroDate').textContent = `${pad(now.getDate())} ${MON[now.getMonth()]} ${now.getFullYear()}`;
+
+let existingShifts = [];
+let shiftExists    = false;
+let debounce       = null;
+
+function setLoading(on) { $('loadBar').classList.toggle('on', on); }
+
+function getPeriod(s) { return !s ? '' : s.startsWith('DAY') ? 'DAY' : 'NIGHT'; }
+
+function handleMainBtn() {
+  const btn   = $('submitBtn');
+  const mode  = $('modeField').value;
+  const shift = $('shift').value;
+
+  if (mode === 'navigate') {
+    $('btnLabel').textContent = '↻ REDIRECTING…';
+    btn.disabled = true;
+    window.location.href = 'about1.php';
+    return;
+  }
+  if (!shift) {
+    $('shift').focus();
+    $('shift').classList.add('error-flash');
+    setTimeout(() => $('shift').classList.remove('error-flash'), 600);
+    return;
+  }
+  $('btnLabel').textContent = mode === 'update' ? 'UPDATING…' : 'SAVING…';
+  btn.disabled = true;
+  $('loginForm').submit();
+}
+
+function determineAction(sel) {
+  if (!shiftExists || !existingShifts.length) return 'new';
+  if (existingShifts.includes(sel)) return 'navigate';
+  const samePeriod = existingShifts.find(s => getPeriod(s) === getPeriod(sel));
+  return samePeriod ? 'update' : 'additional';
+}
+
+function updateSelectionUI(sel) {
+  const btn = $('submitBtn');
+  $('updateNoticeBox').classList.remove('show');
+  btn.classList.remove('mode-update');
+
+  if (!sel) {
+    $('modeField').value = shiftExists ? 'navigate' : 'new';
+    $('btnLabel').textContent = 'ENTER SYSTEM';
+    return;
+  }
+
+  const action = determineAction(sel);
+  $('modeField').value = action;
+
+  if (action === 'navigate') {
+    $('existingShiftField').value = '';
+    $('btnLabel').textContent = 'ENTER SYSTEM';
+  } else if (action === 'update') {
+    const old = existingShifts.find(s => getPeriod(s) === getPeriod(sel));
+    $('existingShiftField').value = old || '';
+    $('updateNoticeBox').classList.add('show');
+    $('updateNoticeBody').innerHTML =
+      `The <strong>${getPeriod(sel)}</strong> shift on this date is logged as <strong>${old}</strong>. ` +
+      `Confirming will <strong>update</strong> it to <strong>${sel}</strong>.`;
+    $('btnLabel').textContent = `UPDATE → ${sel}`;
+    btn.classList.add('mode-update');
+  } else if (action === 'additional') {
+    $('existingShiftField').value = '';
+    $('btnLabel').textContent = 'LOG NEW SHIFT';
+  } else {
+    $('existingShiftField').value = '';
+    $('btnLabel').textContent = 'ENTER SYSTEM';
+  }
+}
+
+async function checkShift(dateVal) {
+  if (!dateVal) return;
+  setLoading(true);
+  try {
+    const res  = await fetch(`check_shift.php?date=${encodeURIComponent(dateVal)}`);
+    const data = await res.json();
+    applyState(data.exists ? (data.all || [data.shift]) : []);
+  } catch {
+    applyState([]);
+  } finally {
+    setLoading(false);
+  }
+}
+
+function applyState(shifts) {
+  existingShifts = (shifts || []).filter(Boolean);
+  shiftExists    = existingShifts.length > 0;
+  const count    = existingShifts.length;
+
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('existing','active'));
+  $('updateNoticeBox').classList.remove('show');
+  $('submitBtn').classList.remove('mode-update');
+
+  if (shiftExists) {
+    $('shiftFoundBox').classList.add('show');
+    $('sfbTags').innerHTML = existingShifts
+      .map(s => `<span class="sfb-tag">◆ ${s}</span>`).join('');
+    $('sfbTitle').textContent = `${count} SHIFT${count>1?'S':''} LOGGED`;
+    $('sfbCount').textContent  = `${count} record${count>1?'s':''}`;
+    existingShifts.forEach(s => {
+      const c = document.querySelector(`.chip[data-val="${s}"]`);
+      if (c) c.classList.add('existing');
+    });
+    $('chipsNote').textContent = `On file: ${existingShifts.join(', ')}`;
+    $('dateNote').textContent  = `${count} on file`;
+    $('modeField').value       = 'navigate';
+    $('btnLabel').textContent  = 'ENTER SYSTEM';
+  } else {
+    $('shiftFoundBox').classList.remove('show');
+    $('sfbTags').innerHTML     = '';
+    $('chipsNote').textContent = '';
+    $('dateNote').textContent  = '';
+    $('modeField').value       = 'new';
+    $('btnLabel').textContent  = 'ENTER SYSTEM';
+  }
+
+  const selShift = $('shift').value;
+  if (selShift) updateSelectionUI(selShift);
+}
+
+$('logDate').addEventListener('change', function () {
+  $('shift').value = '';
+  syncChips();
+  clearTimeout(debounce);
+  debounce = setTimeout(() => checkShift(this.value), 180);
+});
+
+checkShift(todayISO);
+
+const shiftSel = $('shift');
+function syncChips() {
+  document.querySelectorAll('.chip').forEach(c =>
+    c.classList.toggle('active', c.dataset.val === shiftSel.value)
+  );
+}
+document.querySelectorAll('.chip').forEach(c => {
+  c.addEventListener('click', () => {
+    shiftSel.value = c.dataset.val;
+    syncChips();
+    updateSelectionUI(c.dataset.val);
+  });
+  c.addEventListener('touchstart', () => c.style.opacity = '0.7', { passive: true });
+  c.addEventListener('touchend',   () => c.style.opacity = '',    { passive: true });
+});
+shiftSel.addEventListener('change', () => {
+  syncChips();
+  updateSelectionUI(shiftSel.value);
+});
+</script>
+</body>
+</html>

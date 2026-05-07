@@ -1,0 +1,682 @@
+[28-Apr-2025 05:33:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /home/planatir/public_html/qad/f_us_hard.php:9
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(9): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 9
+[28-Apr-2025 05:35:58 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:35:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.quality_records' doesn't exist in /home/planatir/public_html/qad/f_us_hard.php:24
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 24
+[28-Apr-2025 05:37:07 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:34 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:34 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:34 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:35 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:35 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:35 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:35 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:35 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:36 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:36 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:36 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:36 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:37 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:37 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:37 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:37 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:37 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:38 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:38 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:38 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:40 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:40 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:40 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:40 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:41 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:41 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:41 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:41 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:41 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:41 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:42 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:42 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:42 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:42 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:42 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:43 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:43 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:37:43 UTC] PHP Warning:  Undefined array key "id" in /home/planatir/public_html/qad/f_us_hard.php on line 17
+[28-Apr-2025 05:50:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'lanatir_task_managemen'@'localhost' (using password: YES) in /home/planatir/public_html/qad/f_us_hard.php:9
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(9): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 9
+[28-Apr-2025 05:51:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_codes' doesn't exist in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:51:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'td.tireCodeId' in 'ON' in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:52:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tc.tireCode' in 'SELECT' in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:53:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tc.tireCode' in 'SELECT' in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:53:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tc.tireCode' in 'SELECT' in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:53:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tc.tireCode' in 'SELECT' in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:53:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tc.tireCode' in 'SELECT' in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:55:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_codes' doesn't exist in /home/planatir/public_html/qad/f_us_hard.php:37
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 37
+[28-Apr-2025 05:55:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'SerialNumber' in 'WHERE' in /home/planatir/public_html/qad/f_us_hard.php:49
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(49): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 49
+[28-Apr-2025 05:56:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'SerialNumber' in 'INSERT INTO' in /home/planatir/public_html/qad/f_us_hard.php:116
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(116): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 116
+[28-Apr-2025 05:57:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.f_h_quality_records' doesn't exist in /home/planatir/public_html/qad/f_us_hard.php:116
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(116): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 116
+[28-Apr-2025 09:50:14 UTC] PHP Warning:  Undefined array key "innerDiameter" in /home/planatir/public_html/qad/pro_serial_final.php on line 284
+[28-Apr-2025 09:50:14 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/qad/pro_serial_final.php on line 286
+[28-Apr-2025 09:50:18 UTC] PHP Warning:  Undefined array key "innerDiameter" in /home/planatir/public_html/qad/pro_serial_final.php on line 284
+[28-Apr-2025 09:50:18 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/qad/pro_serial_final.php on line 286
+[28-Apr-2025 09:50:28 UTC] PHP Warning:  Undefined array key "innerDiameter" in /home/planatir/public_html/qad/pro_serial_final.php on line 284
+[28-Apr-2025 09:50:28 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/qad/pro_serial_final.php on line 286
+[28-Apr-2025 09:50:46 UTC] PHP Warning:  Undefined array key "innerDiameter" in /home/planatir/public_html/qad/pro_serial_final.php on line 284
+[28-Apr-2025 09:50:46 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/qad/pro_serial_final.php on line 286
+[28-Apr-2025 09:59:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'td2.icode_description' in 'SELECT' in /home/planatir/public_html/qad/f_us_hard.php:50
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(50): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 50
+[28-Apr-2025 09:59:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'td2.icode_description' in 'SELECT' in /home/planatir/public_html/qad/f_us_hard.php:50
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(50): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 50
+[28-Apr-2025 10:06:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '04202500001' for key 'unique_serial_number' in /home/planatir/public_html/qad/f_us_hard.php:178
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(178): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 178
+[28-Apr-2025 10:20:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/daily_defect.php:15
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(15): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 15
+[28-Apr-2025 10:41:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.employees' doesn't exist in /home/planatir/public_html/qad/daily_defect.php:82
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(82): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 82
+[28-Apr-2025 10:47:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.employees' doesn't exist in /home/planatir/public_html/qad/daily_defect.php:82
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(82): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 82
+[28-Apr-2025 10:53:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:54:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:54:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:55:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:55:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:56:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:56:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:59:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 10:59:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.employee_id' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:109
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(109): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 109
+[28-Apr-2025 11:07:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '04202500001' for key 'serialNumber' in /home/planatir/public_html/qad/daily_defect.php:86
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(86): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 86
+[28-Apr-2025 11:20:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_production' doesn't exist in /home/planatir/public_html/qad/green_tire.php:107
+Stack trace:
+#0 /home/planatir/public_html/qad/green_tire.php(107): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/green_tire.php on line 107
+[29-Apr-2025 03:26:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/green_tire.php:17
+Stack trace:
+#0 /home/planatir/public_html/qad/green_tire.php(17): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/green_tire.php on line 17
+[29-Apr-2025 03:27:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/green_tire.php:17
+Stack trace:
+#0 /home/planatir/public_html/qad/green_tire.php(17): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/green_tire.php on line 17
+[29-Apr-2025 03:31:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/green_tire.php:17
+Stack trace:
+#0 /home/planatir/public_html/qad/green_tire.php(17): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/green_tire.php on line 17
+[29-Apr-2025 04:02:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/green_tire.php:17
+Stack trace:
+#0 /home/planatir/public_html/qad/green_tire.php(17): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/green_tire.php on line 17
+[29-Apr-2025 04:03:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_production' doesn't exist in /home/planatir/public_html/qad/green_tire.php:107
+Stack trace:
+#0 /home/planatir/public_html/qad/green_tire.php(107): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/green_tire.php on line 107
+[30-Apr-2025 10:24:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'localhost' (using password: YES) in /home/planatir/public_html/qad/pob_grinding.php:9
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(9): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 9
+[30-Apr-2025 11:14:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_grinding_data' doesn't exist in /home/planatir/public_html/qad/pob_grinding.php:33
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(33): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 33
+[02-May-2025 05:20:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Icode' in 'INSERT INTO' in /home/planatir/public_html/qad/pob_grinding.php:166
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(166): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 166
+[02-May-2025 05:24:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '04202500001-2025-05-02' for key 'unique_sir_no_date' in /home/planatir/public_html/qad/pob_grinding.php:171
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(171): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 171
+[02-May-2025 07:55:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.color' in 'SELECT' in /home/planatir/public_html/qad/pob_grinding.php:75
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 75
+[02-May-2025 08:04:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.tire_code' in 'ON' in /home/planatir/public_html/qad/pob_grinding.php:75
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 75
+[02-May-2025 08:05:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'td.icode' in 'ON' in /home/planatir/public_html/qad/pob_grinding.php:75
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 75
+[02-May-2025 08:05:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.tire_code' in 'ON' in /home/planatir/public_html/qad/pob_grinding.php:75
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 75
+[02-May-2025 08:06:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.tire_code' in 'ON' in /home/planatir/public_html/qad/pob_grinding.php:75
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 75
+[02-May-2025 08:06:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.tire_code' in 'ON' in /home/planatir/public_html/qad/pob_grinding.php:75
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 75
+[02-May-2025 08:06:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.tire_code' in 'ON' in /home/planatir/public_html/qad/pob_grinding.php:75
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 75
+[02-May-2025 10:17:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.color' in 'SELECT' in /home/planatir/public_html/qad/pob_grinding.php:216
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(216): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 216
+[08-May-2025 04:15:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_defect3' doesn't exist in /home/planatir/public_html/qad/daily_defect_nm2.php:82
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm2.php(82): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm2.php on line 82
+[08-May-2025 04:15:54 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm2.php on line 375
+[13-May-2025 15:28:29 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm2.php on line 375
+[15-May-2025 05:18:36 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/planatir/public_html/qad/f_us_hard.php on line 688
+[15-May-2025 05:20:32 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "," or ";" in /home/planatir/public_html/qad/f_us_hard.php on line 346
+[15-May-2025 05:36:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'CaseSize' in 'INSERT INTO' in /home/planatir/public_html/qad/f_us_hard.php:176
+Stack trace:
+#0 /home/planatir/public_html/qad/f_us_hard.php(176): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/f_us_hard.php on line 176
+[15-May-2025 07:02:40 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm2.php on line 375
+[15-May-2025 07:14:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'localhost' (using password: YES) in /home/planatir/public_html/qad/curing_section.php:9
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(9): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 9
+[15-May-2025 07:14:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_no' in 'SELECT' in /home/planatir/public_html/qad/curing_section.php:20
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(20): mysqli->query()
+#1 /home/planatir/public_html/qad/curing_section.php(47): getSerialNumbers()
+#2 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 20
+[15-May-2025 07:15:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_no' in 'SELECT' in /home/planatir/public_html/qad/curing_section.php:20
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(20): mysqli->query()
+#1 /home/planatir/public_html/qad/curing_section.php(47): getSerialNumbers()
+#2 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 20
+[15-May-2025 07:15:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_no' in 'SELECT' in /home/planatir/public_html/qad/curing_section.php:20
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(20): mysqli->query()
+#1 /home/planatir/public_html/qad/curing_section.php(47): getSerialNumbers()
+#2 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 20
+[15-May-2025 07:15:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_no' in 'SELECT' in /home/planatir/public_html/qad/curing_section.php:20
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(20): mysqli->query()
+#1 /home/planatir/public_html/qad/curing_section.php(47): getSerialNumbers()
+#2 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 20
+[15-May-2025 07:15:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_no' in 'SELECT' in /home/planatir/public_html/qad/curing_section.php:20
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(20): mysqli->query()
+#1 /home/planatir/public_html/qad/curing_section.php(47): getSerialNumbers()
+#2 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 20
+[15-May-2025 07:15:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'brand_version' in 'SELECT' in /home/planatir/public_html/qad/curing_section.php:20
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(20): mysqli->query()
+#1 /home/planatir/public_html/qad/curing_section.php(47): getSerialNumbers()
+#2 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 20
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "serial_no" in /home/planatir/public_html/qad/curing_section.php on line 424
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "brand_version" in /home/planatir/public_html/qad/curing_section.php on line 425
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/curing_section.php on line 426
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "serial_no" in /home/planatir/public_html/qad/curing_section.php on line 427
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "serial_no" in /home/planatir/public_html/qad/curing_section.php on line 424
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "brand_version" in /home/planatir/public_html/qad/curing_section.php on line 425
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/curing_section.php on line 426
+[15-May-2025 07:16:24 UTC] PHP Warning:  Undefined array key "serial_no" in /home/planatir/public_html/qad/curing_section.php on line 427
+[16-May-2025 04:15:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/planatir/public_html/qad/curing_section.php on line 729
+[16-May-2025 05:41:21 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm2.php on line 375
+[16-May-2025 05:49:06 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm2.php on line 375
+[16-May-2025 06:18:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/daily_defect_nm_nm.php:16
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(16): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 16
+[16-May-2025 06:19:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/daily_defect_nm_nm.php:16
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(16): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 16
+[16-May-2025 06:20:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_defect' doesn't exist in /home/planatir/public_html/qad/daily_defect_nm_nm.php:83
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(83): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 83
+[16-May-2025 06:24:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_defect_nm' doesn't exist in /home/planatir/public_html/qad/daily_defect_nm_nm.php:83
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(83): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 83
+[16-May-2025 06:25:34 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:03 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:22 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:22 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:23 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:23 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:24 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:24 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:24 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:24 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:24 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:24 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:25 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:26 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:26 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:26 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:26 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:27:34 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:27:34 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:30:03 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:30:03 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:30:09 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:30:09 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 377
+[16-May-2025 06:34:18 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 376
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 739
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:38:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:38:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'size' in 'INSERT INTO' in /home/planatir/public_html/qad/daily_defect_nm_nm.php:64
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(64): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 64
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 739
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:46:06 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 739
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 06:48:14 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 739
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "size" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 936
+[16-May-2025 09:48:47 UTC] PHP Warning:  Undefined array key "notes" in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 948
+[16-May-2025 09:59:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'notes' in 'INSERT INTO' in /home/planatir/public_html/qad/daily_defect_nm_nm.php:63
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(63): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 63
+[20-May-2025 07:07:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'icode' in 'SELECT' in /home/planatir/public_html/qad/daily_defect.php:101
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 101
+[20-May-2025 07:07:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'icode' in 'SELECT' in /home/planatir/public_html/qad/daily_defect.php:101
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 101
+[20-May-2025 07:08:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.icode' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:126
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(126): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 126
+[20-May-2025 07:09:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tireCode' in 'SELECT' in /home/planatir/public_html/qad/daily_defect.php:108
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(108): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 108
+[20-May-2025 07:09:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'icode' in 'SELECT' in /home/planatir/public_html/qad/daily_defect.php:101
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 101
+[20-May-2025 07:19:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ti.icode' in 'ON' in /home/planatir/public_html/qad/daily_defect.php:133
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(133): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 133
+[20-May-2025 08:00:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_grinding_data' doesn't exist in /home/planatir/public_html/qad/daily_defect_nm.php:43
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm.php(43): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm.php on line 43
+[20-May-2025 08:00:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.tire_grinding_data' doesn't exist in /home/planatir/public_html/qad/daily_defect_nm.php:43
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm.php(43): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm.php on line 43
+[20-May-2025 09:09:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /home/planatir/public_html/qad/daily_defect_nm.php:9
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm.php(9): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm.php on line 9
+[20-May-2025 09:10:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.operators' doesn't exist in /home/planatir/public_html/qad/daily_defect_nm.php:119
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm.php on line 119
+[20-May-2025 09:10:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.operators' doesn't exist in /home/planatir/public_html/qad/daily_defect_nm.php:119
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm.php on line 119
+[20-May-2025 10:37:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/qad/curing_section.php:153
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(153): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 153
+[20-May-2025 10:38:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/qad/curing_section.php:153
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(153): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 153
+[20-May-2025 12:12:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/qad/curing_section.php:153
+Stack trace:
+#0 /home/planatir/public_html/qad/curing_section.php(153): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/curing_section.php on line 153
+[21-May-2025 20:57:42 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm2.php on line 375
+[22-May-2025 06:49:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/daily_defect_nm_nm.php:15
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(15): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 15
+[22-May-2025 06:50:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/daily_defect_nm_nm.php:15
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(15): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 15
+[22-May-2025 06:50:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/planatir/public_html/qad/daily_defect_nm_nm.php:15
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm_nm.php(15): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm_nm.php on line 15
+[22-May-2025 23:21:49 UTC] PHP Warning:  Undefined variable $employeeResult in /home/planatir/public_html/qad/daily_defect_nm2.php on line 375
+[23-May-2025 07:03:32 UTC] Fetching tire data for serial: 05202500002
+[23-May-2025 07:03:35 UTC] Fetching tire data for serial: 05202500002
+[23-May-2025 07:03:38 UTC] Fetching tire data for serial: 05202500005
+[23-May-2025 07:03:47 UTC] Fetching tire data for serial: 05202500003
+[23-May-2025 07:05:06 UTC] PHP Warning:  Undefined array key "operator" in /home/planatir/public_html/qad/daily_defect_nm.php on line 118
+[23-May-2025 07:05:09 UTC] PHP Warning:  Undefined array key "operator" in /home/planatir/public_html/qad/daily_defect_nm.php on line 118
+[26-May-2025 03:39:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tt.color' in 'SELECT' in /home/planatir/public_html/qad/pob_grinding.php:216
+Stack trace:
+#0 /home/planatir/public_html/qad/pob_grinding.php(216): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/pob_grinding.php on line 216
+[26-May-2025 03:59:18 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/planatir/public_html/qad/pob_grinding.php on line 754
+[26-May-2025 04:24:38 UTC] Database connection error: Access denied for user 'root'@'localhost' (using password: NO)
+[26-May-2025 04:59:22 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 04:59:48 UTC] Form submitted: date=2025-05-26, shift=A - (Day), pressOperator=147, pressNo=A-07, cycleCount=1
+[26-May-2025 04:59:48 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[26-May-2025 04:59:48 UTC] Cycle 0, Serial 0: serialNumber=05202500003, brand_version=empty, size=705071, in_time=empty, quality_check=empty
+[26-May-2025 04:59:48 UTC] Brand version is missing for serial 0 in cycle 0.
+[26-May-2025 05:01:24 UTC] Form submitted: date=2025-05-26, shift=A - (Day), pressOperator=147, pressNo=A-07, cycleCount=1
+[26-May-2025 05:01:24 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[26-May-2025 05:01:24 UTC] Cycle 0, Serial 0: serialNumber=05202500003, brand_version=empty, size=705071, in_time=empty, quality_check=empty
+[26-May-2025 05:01:24 UTC] Brand version is missing for serial 0 in cycle 0.
+[26-May-2025 05:05:52 UTC] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'your_username'@'localhost' (using password: YES)
+[26-May-2025 05:05:52 UTC] PHP Warning:  Undefined variable $stats in /home/planatir/public_html/qad/dashboard.php on line 1202
+[26-May-2025 05:05:52 UTC] PHP Warning:  Undefined variable $stats in /home/planatir/public_html/qad/dashboard.php on line 1203
+[26-May-2025 05:06:05 UTC] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'your_username'@'localhost' (using password: YES)
+[26-May-2025 05:06:05 UTC] PHP Warning:  Undefined variable $stats in /home/planatir/public_html/qad/dashboard.php on line 1202
+[26-May-2025 05:06:05 UTC] PHP Warning:  Undefined variable $stats in /home/planatir/public_html/qad/dashboard.php on line 1203
+[26-May-2025 05:06:46 UTC] Database connection failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'planatir_task_managemen.dashboard_stats' doesn't exist
+[26-May-2025 05:06:46 UTC] PHP Warning:  Undefined variable $stats in /home/planatir/public_html/qad/dashboard.php on line 1202
+[26-May-2025 05:06:46 UTC] PHP Warning:  Undefined variable $stats in /home/planatir/public_html/qad/dashboard.php on line 1203
+[26-May-2025 05:07:20 UTC] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'your_username'@'localhost' (using password: YES)
+[26-May-2025 05:07:28 UTC] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'your_username'@'localhost' (using password: YES)
+[26-May-2025 06:32:40 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 06:33:04 UTC] Form submitted: date=2025-05-26, shift=A - (Day), pressOperator=1, pressNo=A-07, cycleCount=1
+[26-May-2025 06:33:04 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[26-May-2025 06:33:04 UTC] Cycle 0, Serial 0: serialNumber=05202500003, brand_version=empty, size=705071, in_time=empty, quality_check=empty
+[26-May-2025 06:33:04 UTC] Brand version is missing for serial 0 in cycle 0.
+[26-May-2025 06:33:14 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 06:37:49 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 06:37:50 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 06:38:19 UTC] Form submitted: date=2025-05-26, shift=A - (Day), pressOperator=124, pressNo=A-07, cycleCount=1
+[26-May-2025 06:38:19 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[26-May-2025 06:38:19 UTC] Cycle 0, Serial 0: serialNumber=05202500008, brand_version=empty, size=110004, in_time=empty, quality_check=empty
+[26-May-2025 06:38:19 UTC] Brand version is missing for serial 0 in cycle 0.
+[26-May-2025 06:40:38 UTC] Form submitted: date=2025-05-26, shift=A - (Day), pressOperator=124, pressNo=A-07, cycleCount=1
+[26-May-2025 06:40:38 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[26-May-2025 06:40:38 UTC] Cycle 0, Serial 0: serialNumber=05202500008, brand_version=empty, size=110004, in_time=empty, quality_check=empty
+[26-May-2025 06:40:38 UTC] Brand version is missing for serial 0 in cycle 0.
+[26-May-2025 06:43:04 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 06:43:05 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 06:43:30 UTC] PHP Parse error:  Unmatched ')' in /home/planatir/public_html/qad/curing_section.php on line 751
+[26-May-2025 06:43:34 UTC] PHP Parse error:  Unmatched ')' in /home/planatir/public_html/qad/curing_section.php on line 751
+[26-May-2025 06:44:16 UTC] PHP Parse error:  Unmatched ')' in /home/planatir/public_html/qad/curing_section.php on line 751
+[26-May-2025 06:46:08 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 07:42:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '05202500002' for key 'serialNumber' in /home/planatir/public_html/qad/daily_defect.php:101
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect.php on line 101
+[26-May-2025 07:45:24 UTC] Fetching tire data for serial: 05202500002
+[26-May-2025 07:45:29 UTC] Fetching tire data for serial: 05202500001
+[26-May-2025 07:57:31 UTC] Fetching tire data for serial: 05202500002
+[26-May-2025 07:57:32 UTC] Fetching tire data for serial: 05202500002
+[26-May-2025 07:57:35 UTC] Fetching tire data for serial: 05202500001
+[26-May-2025 07:57:36 UTC] Fetching tire data for serial: 05202500001
+[26-May-2025 10:16:19 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[26-May-2025 10:16:51 UTC] Form submitted: date=2025-05-26, shift=A - (Day), pressOperator=dddd, pressNo=A-07, cycleCount=1
+[26-May-2025 10:16:51 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[26-May-2025 10:16:51 UTC] Cycle 0, Serial 0: serialNumber=05202500004, brand_version=empty, size=125013, in_time=empty, quality_check=empty
+[26-May-2025 10:16:51 UTC] Brand version is missing for serial 0 in cycle 0.
+[28-May-2025 04:49:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/planatir/public_html/qad/daily_defect_nm.php:14
+Stack trace:
+#0 /home/planatir/public_html/qad/daily_defect_nm.php(14): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/qad/daily_defect_nm.php on line 14
+[28-May-2025 05:38:46 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:39:08 UTC] Form submitted: date=2025-05-28, shift=A - (Day), pressOperator=111, pressNo=A-09, cycleCount=1
+[28-May-2025 05:39:08 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:39:08 UTC] Cycle 0, Serial 0: serialNumber=05202500003, brand_version=empty, size=705071, in_time=empty, quality_check=empty
+[28-May-2025 05:39:08 UTC] Brand version is missing for serial 0 in cycle 0.
+[28-May-2025 05:39:42 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:39:44 UTC] Form submitted: date=2025-05-28, shift=A - (Day), pressOperator=111, pressNo=A-09, cycleCount=1
+[28-May-2025 05:39:44 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:39:44 UTC] Cycle 0, Serial 0: serialNumber=05202500001, brand_version=empty, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 05:39:44 UTC] Brand version is missing for serial 0 in cycle 0.
+[28-May-2025 05:50:04 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:50:33 UTC] Form submitted: date=2025-05-28, shift=A - (Day), pressOperator=dddd, pressNo=A-09, cycleCount=1
+[28-May-2025 05:50:33 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:50:33 UTC] Cycle 0, Serial 0: serialNumber=05202500001, brand_version=Unknown, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 05:50:33 UTC] Error saving data: Table 'planatir_task_managemen.quality_inspection' doesn't exist
+[28-May-2025 05:52:49 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:52:53 UTC] Form submitted: date=2025-05-28, shift=A - (Day), pressOperator=dddd, pressNo=A-09, cycleCount=1
+[28-May-2025 05:52:53 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:52:53 UTC] Cycle 0, Serial 0: serialNumber=05202500001, brand_version=Unknown, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 05:52:53 UTC] Error saving data: Invalid Hydraulic Pressure: must be a number
+[28-May-2025 05:53:06 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:53:07 UTC] Form submitted: date=2025-05-28, shift=A - (Day), pressOperator=dddd, pressNo=A-09, cycleCount=1
+[28-May-2025 05:53:07 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:53:07 UTC] Cycle 0, Serial 0: serialNumber=05202500001, brand_version=Unknown, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 05:53:07 UTC] Error saving data: Invalid Hydraulic Pressure: must be a number
+[28-May-2025 05:53:34 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:53:41 UTC] Form submitted: date=2025-05-28, shift=A - (Day), pressOperator=dddd, pressNo=A-09, cycleCount=1
+[28-May-2025 05:53:41 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:53:41 UTC] Cycle 0, Serial 0: serialNumber=05202500001, brand_version=Unknown, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 05:53:41 UTC] Error saving data: Invalid Hydraulic Pressure: must be a number
+[28-May-2025 05:55:01 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:55:20 UTC] Form submitted: date=2025-05-28, shift=B - (Night), pressOperator=444, pressNo=A-07, cycleCount=1
+[28-May-2025 05:55:20 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:55:20 UTC] Cycle 0, Serial 0: serialNumber=05202500001, brand_version=Unknown, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 05:55:20 UTC] Error saving data: Invalid Hydraulic Pressure: must be a number
+[28-May-2025 05:56:09 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:56:22 UTC] Form submitted: date=2025-05-28, shift=B - (Night), pressOperator=dddd, pressNo=A-07, cycleCount=1
+[28-May-2025 05:56:22 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:56:22 UTC] Cycle 0, Serial 0: serialNumber=05202500005, brand_version=Unknown, size=125013, in_time=empty, quality_check=empty
+[28-May-2025 05:56:22 UTC] Error saving data: Invalid Hydraulic Pressure: must be a number
+[28-May-2025 05:57:06 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 05:57:08 UTC] Form submitted: date=2025-05-28, shift=B - (Night), pressOperator=dd, pressNo=A-07, cycleCount=1
+[28-May-2025 05:57:08 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 05:57:08 UTC] Cycle 0, Serial 0: serialNumber=05202500003, brand_version=Unknown, size=705071, in_time=empty, quality_check=empty
+[28-May-2025 05:57:08 UTC] Error saving data: Invalid Hydraulic Pressure: must be a number
+[28-May-2025 06:02:15 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 06:02:17 UTC] Form submitted: date=2025-05-09, shift=B - (Night), pressOperator=fff, pressNo=A-07, cycleCount=1
+[28-May-2025 06:02:17 UTC] Processing cycle 0: cycle_no=1, serial_count=1
+[28-May-2025 06:02:17 UTC] Cycle 0, Serial 0: serialNumber=05202500001, brand_version=Unknown, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 06:02:17 UTC] Successfully inserted inspection for serialNumber=05202500001, cycle_no=1, date=2025-05-09
+[28-May-2025 06:32:17 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 06:32:20 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 06:32:25 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 06:32:32 UTC] Form submitted: date=2025-05-28, shift=A - (Day), pressOperator=dfffd, pressNo=A-07, cycleCount=2
+[28-May-2025 06:32:32 UTC] Processing cycle 0: cycle_no=1, serial_count=2
+[28-May-2025 06:32:32 UTC] Cycle 0, Serial 0: serialNumber=05202500004, brand_version=Unknown, size=125013, in_time=empty, quality_check=empty
+[28-May-2025 06:32:32 UTC] Cycle 0, Serial 1: serialNumber=05202500002, brand_version=Unknown, size=135001, in_time=empty, quality_check=empty
+[28-May-2025 06:32:32 UTC] Processing cycle 1: cycle_no=2, serial_count=1
+[28-May-2025 06:32:32 UTC] Cycle 1, Serial 0: serialNumber=05202500006, brand_version=Unknown, size=125013, in_time=empty, quality_check=empty
+[28-May-2025 06:32:32 UTC] Successfully inserted inspection for serialNumber=05202500004, cycle_no=1, date=2025-05-28
+[28-May-2025 06:32:32 UTC] Successfully inserted inspection for serialNumber=05202500002, cycle_no=1, date=2025-05-28
+[28-May-2025 06:32:32 UTC] Successfully inserted inspection for serialNumber=05202500006, cycle_no=2, date=2025-05-28
+[28-May-2025 06:33:13 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 06:34:20 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[28-May-2025 06:34:22 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[11-Jun-2025 08:51:18 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]
+[11-Jun-2025 08:51:20 UTC] Search term: , Results: [{"id":"05202500004","text":"05202500004","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500003","text":"05202500003","brand":"POB","tireCode":"705071","tireWeight":"6.20","pressNumber":"A-07"},{"id":"05202500001","text":"05202500001","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500002","text":"05202500002","brand":"ACHIEVER","tireCode":"135001","tireWeight":"59.60","pressNumber":"A-02"},{"id":"05202500005","text":"05202500005","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500006","text":"05202500006","brand":"ACHE +","tireCode":"125013","tireWeight":"44.50","pressNumber":"A-03"},{"id":"05202500007","text":"05202500007","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500008","text":"05202500008","brand":"ACHIEVER","tireCode":"110004","tireWeight":"9.98","pressNumber":"C-01"},{"id":"05202500009","text":"05202500009","brand":"POB","tireCode":"715072","tireWeight":"15.50","pressNumber":"B-06"},{"id":"05202500010","text":"05202500010","brand":"ACHE +","tireCode":"111161","tireWeight":"26.22","pressNumber":"C-04"}]

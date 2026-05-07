@@ -1,0 +1,59 @@
+[03-Jan-2025 08:43:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/planatir/public_html/edit_data/TireDetails/edit.php:25
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/edit.php(25): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/edit.php on line 25
+[03-Jan-2025 08:46:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/planatir/public_html/edit_data/TireDetails/edit.php:25
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/edit.php(25): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/edit.php on line 25
+[03-Jan-2025 08:46:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/planatir/public_html/edit_data/TireDetails/edit.php:25
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/edit.php(25): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/edit.php on line 25
+[03-Jan-2025 09:03:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/planatir/public_html/edit_data/TireDetails/edit.php:25
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/edit.php(25): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/edit.php on line 25
+[23-Jan-2025 09:08:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/edit_data/TireDetails/add.php:23
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/add.php(23): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/add.php on line 23
+[23-Jan-2025 09:09:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/edit_data/TireDetails/add.php:23
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/add.php(23): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/add.php on line 23
+[27-Feb-2025 09:11:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '175042' for key 'PRIMARY' in /home/planatir/public_html/edit_data/TireDetails/add.php:44
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/add.php(44): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/add.php on line 44
+[27-Feb-2025 09:11:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '175042' for key 'PRIMARY' in /home/planatir/public_html/edit_data/TireDetails/add.php:44
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/add.php(44): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/add.php on line 44
+[25-Jun-2025 07:12:43 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=3779179 in /home/planatir/public_html/edit_data/TireDetails/db.php on line 7
+[25-Jun-2025 07:12:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home/planatir/public_html/edit_data/TireDetails/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/TireDetails/index.php(19): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/db.php on line 7
+[25-Jun-2025 07:12:43 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=3779668 in /home/planatir/public_html/edit_data/TireDetails/db.php on line 7
+[25-Jun-2025 07:12:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home/planatir/public_html/edit_data/TireDetails/db.php:7
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/db.php(7): mysqli->__construct()
+#1 /home/planatir/public_html/edit_data/TireDetails/index.php(19): include('/home/planatir/...')
+#2 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/db.php on line 7
+[07-Jul-2025 03:55:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/edit_data/TireDetails/add.php:41
+Stack trace:
+#0 /home/planatir/public_html/edit_data/TireDetails/add.php(41): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/TireDetails/add.php on line 41

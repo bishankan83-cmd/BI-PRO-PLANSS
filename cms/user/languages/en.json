@@ -1,0 +1,105 @@
+{
+  "page_title": "Customer Dashboard - Tire Management System",
+  
+  "nav_customer_service": "Customer Service",
+  "nav_dashboard": "Dashboard",
+  "nav_overview": "Overview",
+  "nav_orders": "Orders",
+  "nav_new_order": "New Order",
+  "navcl_orders": "Re use Order",
+  "nav_my_orders": "My Orders",
+  "nav_complaints": "Complaints",
+  "nav_new_complaint": "New Complaint",
+  "nav_my_complaints": "My Complaints",
+  "nav_feedback": "Feedback",
+  "nav_submit_feedback": "Submit Feedback",
+  "nav_my_feedback": "My Feedback",
+  "nav_account": "Account",
+  "nav_profile": "Profile",
+  "nav_settings": "Settings",
+  "nav_support": "Support",
+  "nav_logout": "Logout",
+  
+  "search_placeholder": "Search orders, complaints & feedback...",
+  
+  "welcome_message": "Welcome back, {{name}}!",
+  "dashboard_subtitle": "Manage your orders, track complaints, and share your valuable feedback",
+  
+  "btn_new_order": "New Order",
+  "btn_new_complaint": "New Complaint",
+  "btn_view_all": "View All",
+  
+  "section_order_statistics": "Order Statistics",
+  "section_complaint_statistics": "Complaint Statistics",
+  "section_feedback_overview": "Feedback Overview",
+  "section_recent_activity": "Recent Activity",
+  "section_performance_metrics": "Performance Metrics",
+  
+  "trend_total": "Total",
+  "trend_waiting": "Waiting",
+  "trend_active": "Active",
+  "trend_done": "Done",
+  "trend_success": "Success",
+  "trend_complete": "Complete",
+  
+  "stat_total_orders": "Total Orders",
+  "stat_total_orders_desc": "All orders placed",
+  "stat_pending_orders": "Pending Orders",
+  "stat_pending_orders_desc": "Awaiting processing",
+  "stat_in_progress_orders": "In Progress",
+  "stat_in_progress_orders_desc": "Being processed",
+  "stat_completed_orders": "Completed Orders",
+  "stat_completed_orders_desc": "Successfully delivered",
+  
+  "stat_total_complaints": "Total Complaints",
+  "stat_total_complaints_desc": "All complaints submitted",
+  "stat_pending_complaints": "Pending Review",
+  "stat_pending_complaints_desc": "Awaiting response",
+  "stat_in_progress_complaints": "In Progress",
+  "stat_in_progress_complaints_desc": "Being resolved",
+  "stat_completed_complaints": "Completed",
+  "stat_completed_complaints_desc": "Successfully resolved",
+  
+  "stat_total_feedback": "Total Feedback",
+  "stat_total_feedback_desc": "Your valuable feedback",
+  "stat_average_rating": "Average Rating",
+  "stat_average_rating_desc": "Your satisfaction score",
+  
+  "stat_resolution_rate": "Resolution Rate",
+  "stat_resolution_rate_desc": "Complaints resolved successfully",
+  "stat_order_completion": "Order Completion",
+  "stat_order_completion_desc": "Orders successfully delivered",
+  
+  "card_recent_orders": "Recent Orders",
+  "card_recent_complaints": "Recent Complaints",
+  "card_recent_feedback": "Recent Feedback",
+  
+  "label_order": "Order",
+  "label_complaint": "Complaint",
+  "label_feedback": "Feedback",
+  "label_rating": "Rating",
+  "label_order_details": "Order Details",
+  "label_no_feedback_text": "No feedback text",
+  
+  "status_pending": "Pending",
+  "status_in_progress": "In Progress",
+  "status_in_process": "In Process",
+  "status_completed": "Completed",
+  "status_closed": "Closed",
+  "status_resolved": "Resolved",
+  
+  "empty_no_orders": "No Orders Yet",
+  "empty_no_orders_desc": "You haven't placed any orders",
+  "empty_place_first_order": "Place Your First Order",
+  
+  "empty_no_complaints": "No Complaints Yet",
+  "empty_no_complaints_desc": "You haven't submitted any complaints",
+  "empty_file_first_complaint": "File Your First Complaint",
+  
+  "empty_no_feedback": "No Feedback Yet",
+  "empty_no_feedback_desc": "Share your experience with us",
+  "empty_submit_first_feedback": "Submit Your First Feedback",
+  
+  "notification_pending_items": "You have {{count}} pending items",
+  "notification_no_pending": "No pending notifications"
+}

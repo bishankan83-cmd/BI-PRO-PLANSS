@@ -1,0 +1,17 @@
+{
+    "system_update": {
+        "name": "System Update",
+        "description": "Enable automatic system updates",
+        "enabled": true
+    },
+    "maintenance_mode": {
+        "name": "Maintenance Mode",
+        "description": "Put the system in maintenance mode",
+        "enabled": true
+    },
+    "debug_mode": {
+        "name": "Debug Mode",
+        "description": "Enable verbose logging and debugging information",
+        "enabled": true
+    }
+}

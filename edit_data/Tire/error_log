@@ -1,0 +1,79 @@
+[02-Jan-2025 09:17:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'description' in 'INSERT INTO' in /home/planatir/public_html/edit_data/Tire/add.php:15
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/add.php(15): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/add.php on line 15
+[02-Jan-2025 09:17:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'description' in 'INSERT INTO' in /home/planatir/public_html/edit_data/Tire/add.php:15
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/add.php(15): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/add.php on line 15
+[03-Jan-2025 07:37:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'description' in 'INSERT INTO' in /home/planatir/public_html/edit_data/Tire/add.php:15
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/add.php(15): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/add.php on line 15
+[03-Jan-2025 07:42:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'description' in 'INSERT INTO' in /home/planatir/public_html/edit_data/Tire/add.php:15
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/add.php(15): mysqli->prepare()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/add.php on line 15
+[03-Jan-2025 07:43:02 UTC] PHP Warning:  Undefined array key "idcode" in /home/planatir/public_html/edit_data/Tire/delete.php on line 4
+[03-Jan-2025 07:43:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/planatir/public_html/edit_data/Tire/delete.php:6
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/delete.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/delete.php on line 6
+[22-Jan-2025 10:28:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/edit_data/Tire/edit.php:19
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/edit.php(19): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/edit.php on line 19
+[22-Jan-2025 10:28:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/edit_data/Tire/edit.php:19
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/edit.php(19): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/edit.php on line 19
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Undefined array key "icode" in /home/planatir/public_html/edit_data/Tire/edit.php on line 5
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 76
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 82
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 88
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 94
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 95
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 102
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 108
+[22-Jan-2025 10:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 114
+[22-Jan-2025 10:28:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/planatir/public_html/edit_data/Tire/edit.php:19
+Stack trace:
+#0 /home/planatir/public_html/edit_data/Tire/edit.php(19): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/edit.php on line 19
+[22-Jan-2025 10:30:25 UTC] PHP Warning:  Undefined variable $pdo in /home/planatir/public_html/edit_data/Tire/edit.php on line 71
+[22-Jan-2025 10:30:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/planatir/public_html/edit_data/Tire/edit.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/edit_data/Tire/edit.php on line 71
+[22-Jan-2025 11:31:31 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[22-Jan-2025 11:31:53 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[24-Jan-2025 10:41:43 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[24-Jan-2025 12:57:45 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Undefined array key "icode" in /home/planatir/public_html/edit_data/Tire/edit.php on line 5
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 108
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 113
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 118
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 124
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 125
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 137
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 159
+[25-Jan-2025 00:33:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/edit_data/Tire/edit.php on line 164
+[15-Feb-2025 13:32:38 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[15-Feb-2025 13:32:58 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[17-Feb-2025 11:08:01 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[19-Feb-2025 10:37:49 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[19-Feb-2025 10:38:38 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[21-Feb-2025 18:20:32 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[28-Apr-2025 06:44:44 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[24-Jun-2025 10:11:55 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[03-Jul-2025 05:31:10 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151
+[24-Jul-2025 08:45:06 UTC] PHP Warning:  Undefined array key "time_nm" in /home/planatir/public_html/edit_data/Tire/edit.php on line 151

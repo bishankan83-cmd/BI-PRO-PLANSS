@@ -1,0 +1,104 @@
+{
+  "page_title": "Kunden-Dashboard - Reifenverwaltungssystem",
+  
+  "nav_customer_service": "Kundenservice",
+  "nav_dashboard": "Dashboard",
+  "nav_overview": "Übersicht",
+  "nav_orders": "Bestellungen",
+  "nav_new_order": "Neue Bestellung",
+  "nav_my_orders": "Meine Bestellungen",
+  "nav_complaints": "Beschwerden",
+  "nav_new_complaint": "Neue Beschwerde",
+  "nav_my_complaints": "Meine Beschwerden",
+  "nav_feedback": "Feedback",
+  "nav_submit_feedback": "Feedback abgeben",
+  "nav_my_feedback": "Mein Feedback",
+  "nav_account": "Konto",
+  "nav_profile": "Profil",
+  "nav_settings": "Einstellungen",
+  "nav_support": "Support",
+  "nav_logout": "Abmelden",
+  
+  "search_placeholder": "Bestellungen, Beschwerden & Feedback durchsuchen...",
+  
+  "welcome_message": "Willkommen zurück, {{name}}!",
+  "dashboard_subtitle": "Verwalten Sie Ihre Bestellungen, verfolgen Sie Beschwerden und teilen Sie Ihr wertvolles Feedback",
+  
+  "btn_new_order": "Neue Bestellung",
+  "btn_new_complaint": "Neue Beschwerde",
+  "btn_view_all": "Alle anzeigen",
+  
+  "section_order_statistics": "Bestellstatistiken",
+  "section_complaint_statistics": "Beschwerdestatistiken",
+  "section_feedback_overview": "Feedback-Übersicht",
+  "section_recent_activity": "Letzte Aktivitäten",
+  "section_performance_metrics": "Leistungskennzahlen",
+  
+  "trend_total": "Gesamt",
+  "trend_waiting": "Wartend",
+  "trend_active": "Aktiv",
+  "trend_done": "Erledigt",
+  "trend_success": "Erfolg",
+  "trend_complete": "Abgeschlossen",
+  
+  "stat_total_orders": "Gesamtbestellungen",
+  "stat_total_orders_desc": "Alle aufgegebenen Bestellungen",
+  "stat_pending_orders": "Ausstehende Bestellungen",
+  "stat_pending_orders_desc": "Warten auf Bearbeitung",
+  "stat_in_progress_orders": "In Bearbeitung",
+  "stat_in_progress_orders_desc": "Werden bearbeitet",
+  "stat_completed_orders": "Abgeschlossene Bestellungen",
+  "stat_completed_orders_desc": "Erfolgreich geliefert",
+  
+  "stat_total_complaints": "Gesamtbeschwerden",
+  "stat_total_complaints_desc": "Alle eingereichten Beschwerden",
+  "stat_pending_complaints": "Ausstehende Überprüfung",
+  "stat_pending_complaints_desc": "Warten auf Antwort",
+  "stat_in_progress_complaints": "In Bearbeitung",
+  "stat_in_progress_complaints_desc": "Werden gelöst",
+  "stat_completed_complaints": "Abgeschlossen",
+  "stat_completed_complaints_desc": "Erfolgreich gelöst",
+  
+  "stat_total_feedback": "Gesamtes Feedback",
+  "stat_total_feedback_desc": "Ihr wertvolles Feedback",
+  "stat_average_rating": "Durchschnittliche Bewertung",
+  "stat_average_rating_desc": "Ihre Zufriedenheitsbewertung",
+  
+  "stat_resolution_rate": "Lösungsrate",
+  "stat_resolution_rate_desc": "Erfolgreich gelöste Beschwerden",
+  "stat_order_completion": "Bestellabschluss",
+  "stat_order_completion_desc": "Erfolgreich zugestellte Bestellungen",
+  
+  "card_recent_orders": "Letzte Bestellungen",
+  "card_recent_complaints": "Letzte Beschwerden",
+  "card_recent_feedback": "Letztes Feedback",
+  
+  "label_order": "Bestellung",
+  "label_complaint": "Beschwerde",
+  "label_feedback": "Feedback",
+  "label_rating": "Bewertung",
+  "label_order_details": "Bestelldetails",
+  "label_no_feedback_text": "Kein Feedback-Text",
+  
+  "status_pending": "Ausstehend",
+  "status_in_progress": "In Bearbeitung",
+  "status_in_process": "In Bearbeitung",
+  "status_completed": "Abgeschlossen",
+  "status_closed": "Geschlossen",
+  "status_resolved": "Gelöst",
+  
+  "empty_no_orders": "Noch keine Bestellungen",
+  "empty_no_orders_desc": "Sie haben noch keine Bestellungen aufgegeben",
+  "empty_place_first_order": "Geben Sie Ihre erste Bestellung auf",
+  
+  "empty_no_complaints": "Noch keine Beschwerden",
+  "empty_no_complaints_desc": "Sie haben noch keine Beschwerden eingereicht",
+  "empty_file_first_complaint": "Reichen Sie Ihre erste Beschwerde ein",
+  
+  "empty_no_feedback": "Noch kein Feedback",
+  "empty_no_feedback_desc": "Teilen Sie Ihre Erfahrung mit uns",
+  "empty_submit_first_feedback": "Geben Sie Ihr erstes Feedback ab",
+  
+  "notification_pending_items": "Sie haben {{count}} ausstehende Elemente",
+  "notification_no_pending": "Keine ausstehenden Benachrichtigungen"
+}

@@ -1,0 +1,766 @@
+[07-Jan-2025 10:54:01 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:01:57 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:31:12 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:44:33 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:47:15 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:47:28 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:47:44 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:48:08 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[07-Jan-2025 11:49:17 UTC] PHP Warning:  Undefined array key "icode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 138
+[07-Jan-2025 11:50:24 UTC] PHP Warning:  Undefined array key "tireCode" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 137
+[11-Mar-2025 04:39:08 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 11
+[11-Mar-2025 04:39:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 11
+[11-Mar-2025 04:39:11 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 11
+[11-Mar-2025 04:39:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/about3.php on line 11
+[11-Mar-2025 04:40:43 UTC] Error in tire_details.php: SQLSTATE[HY000] [1045] Access denied for user 'planatir_task_management'@'localhost' (using password: YES)
+[11-Mar-2025 05:40:50 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:40:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:41:13 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:41:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:41:33 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:41:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:42:28 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:42:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:42:30 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:42:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 3
+[11-Mar-2025 05:42:42 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 8
+[11-Mar-2025 05:42:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 8
+[11-Mar-2025 05:43:01 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 8
+[11-Mar-2025 05:43:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/download_pdf.php on line 8
+[11-Mar-2025 05:56:25 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 05:56:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:01:52 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:01:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:02:11 UTC] PHP Fatal error:  Uncaught Error: Class "FPDF" not found in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 55
+[11-Mar-2025 06:02:20 UTC] PHP Fatal error:  Uncaught Error: Class "FPDF" not found in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 55
+[11-Mar-2025 06:03:56 UTC] PHP Warning:  require_once(tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:03:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'tcpdf/tcpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:04:17 UTC] PHP Warning:  require_once(tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:04:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'tcpdf/tcpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:05:08 UTC] PHP Warning:  require_once(tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 8
+[11-Mar-2025 06:05:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'tcpdf/tcpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 8
+[11-Mar-2025 06:06:09 UTC] PHP Warning:  require_once(/home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 8
+[11-Mar-2025 06:06:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 8
+[11-Mar-2025 06:08:58 UTC] PHP Warning:  require_once(tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 8
+[11-Mar-2025 06:08:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'tcpdf/tcpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 8
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 0.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 1.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 3.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 4.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 5.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 6.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 7.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 8.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 9.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 10.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 11.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 12.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 13.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 14.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 16.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 17.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 18.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 19.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 20.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 21.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 22.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 23.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 24.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 25.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 26.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 27.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 28.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 29.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 30.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 31.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 32.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 33.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 34.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 35.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 36.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 37.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 38.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 39.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 40.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 41.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 42.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 43.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 44.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 45.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 46.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 47.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 48.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 49.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 50.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 51.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 52.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 53.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 54.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 55.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 56.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 57.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 58.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 59.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 60.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 61.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 62.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 63.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 64.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 65.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 66.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 67.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 0.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 1.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 3.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 4.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 5.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 6.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 7.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 8.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 9.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 10.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 11.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 12.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 13.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 14.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 16.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Deprecated:  Implicit conversion from float 17.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:03 UTC] PHP Warning:  fopen(): Remote host file access not supported, file://qrcodes/032025-0001.pdf in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/tcpdf_static.php on line 1811
+[11-Mar-2025 06:13:03 UTC] PHP Warning:  fopen(file://qrcodes/032025-0001.pdf): Failed to open stream: no suitable wrapper could be found in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/tcpdf_static.php on line 1811
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 0.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 1.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 3.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 4.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 5.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 6.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 7.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 8.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 9.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 10.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 11.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 12.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 13.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 14.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 16.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 17.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 18.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 19.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 20.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 21.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 22.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 23.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 24.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 25.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 26.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 27.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 28.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 29.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 30.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 31.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 32.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 33.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 34.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 35.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 36.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 37.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 38.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 39.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 40.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 41.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 42.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 43.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 44.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 45.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 46.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 47.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 48.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 49.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 50.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 51.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 52.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 53.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 54.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 55.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 56.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 57.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 58.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 59.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 60.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 61.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 62.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 63.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 64.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 65.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 66.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 67.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 0.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 1.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 3.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 4.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 5.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 6.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 7.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 8.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 9.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 10.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 11.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 12.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 13.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 14.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 16.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Deprecated:  Implicit conversion from float 17.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:20 UTC] PHP Warning:  fopen(): Remote host file access not supported, file://qrcodes/032025-0001.pdf in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/tcpdf_static.php on line 1811
+[11-Mar-2025 06:13:20 UTC] PHP Warning:  fopen(file://qrcodes/032025-0001.pdf): Failed to open stream: no suitable wrapper could be found in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/tcpdf_static.php on line 1811
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 0.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 1.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 3.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 4.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 5.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 6.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 7.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 8.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 9.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 10.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 11.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 12.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 13.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 14.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 16.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 17.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 18.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 19.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 20.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 21.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 22.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 23.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 24.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 25.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 26.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 27.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 28.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 29.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 30.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 31.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 32.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 33.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 34.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 35.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 36.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 37.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 38.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 39.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 40.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 41.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 42.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 43.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 44.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 45.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 46.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 47.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 48.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 49.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 50.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 51.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 52.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 53.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 54.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 55.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 56.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 57.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 58.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 59.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 60.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 61.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 62.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 63.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 64.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 65.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 66.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 67.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 140
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 0.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 1.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 3.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 4.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:50 UTC] PHP Deprecated:  Implicit conversion from float 5.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 6.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 7.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 8.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 9.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 10.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 11.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 12.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 13.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 14.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 16.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Deprecated:  Implicit conversion from float 17.5 to int loses precision in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/phpqrcode/phpqrcode/qrencode.php on line 144
+[11-Mar-2025 06:13:51 UTC] PHP Warning:  fopen(): Remote host file access not supported, file://qrcodes/032025-0001.pdf in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/tcpdf_static.php on line 1811
+[11-Mar-2025 06:13:51 UTC] PHP Warning:  fopen(file://qrcodes/032025-0001.pdf): Failed to open stream: no suitable wrapper could be found in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/tcpdf_static.php on line 1811
+[11-Mar-2025 06:27:53 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:27:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:28:36 UTC] PHP Warning:  require(fpdf/fpdf.php): Failed to open stream: No such file or directory in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:28:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 3
+[11-Mar-2025 06:30:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'planatir_task_managemen.saved_data' doesn't exist in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php:100
+Stack trace:
+#0 /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php(100): mysqli->query()
+#1 {main}
+  thrown in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 100
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:58 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 23
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 24
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 25
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 26
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 27
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "description" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 31
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "staff_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 32
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "hardness" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 33
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "mh" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 34
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "ml" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 35
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t10" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 36
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "t90" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 37
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "rebound" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 38
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "compound_name" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 52
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "sg_value" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 58
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "quality_approved" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 62
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "expire_date" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 67
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 74
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "pallet" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 77
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "weight" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 80
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:30:59 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 82
+[11-Mar-2025 06:33:56 UTC] PHP Warning:  Undefined variable $serialAndBatch in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 56
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "serial_number" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:35:45 UTC] PHP Warning:  Undefined array key "batch" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 53
+[11-Mar-2025 06:36:23 UTC] PHP Warning:  Undefined variable $serialAndBatch in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 57
+[11-Mar-2025 06:36:45 UTC] PHP Warning:  Undefined variable $serialAndBatch in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 57
+[11-Mar-2025 06:39:42 UTC] PHP Warning:  Undefined variable $serialAndBatch in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 64
+[11-Mar-2025 06:40:15 UTC] PHP Warning:  Undefined variable $serialAndBatch in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 64
+[11-Mar-2025 06:40:35 UTC] PHP Warning:  Undefined variable $serialAndBatch in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 64
+[11-Mar-2025 06:40:54 UTC] PHP Warning:  Undefined variable $serialAndBatch in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 64
+[11-Mar-2025 06:42:17 UTC] PHP Parse error:  Unclosed '{' on line 20 in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 110
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_MODE_AN already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 107
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_ECLEVEL_L already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 133
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_ECLEVEL_M already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 138
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_ECLEVEL_Q already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 143
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_ECLEVEL_H already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 148
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QRSPEC_VERSION_MAX already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 160
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QRSPEC_WIDTH_MAX already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 165
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QRCAP_WIDTH already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 172
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QRCAP_WORDS already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 177
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QRCAP_REMINDER already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 182
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QRCAP_EC already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 187
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant STRUCTURE_HEADER_BITS already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 196
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant MAX_STRUCTURED_SYMBOLS already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 201
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant N1 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 210
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant N2 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 215
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant N3 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 220
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant N4 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 225
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_FIND_BEST_MASK already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 234
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_FIND_FROM_RANDOM already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 239
+[11-Mar-2025 09:00:35 UTC] PHP Warning:  Constant QR_DEFAULT_MASK already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 244
+[11-Mar-2025 09:00:35 UTC] PHP Fatal error:  Cannot declare class QRcode, because the name is already in use in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 265
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_MODE_AN already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 107
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_ECLEVEL_L already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 133
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_ECLEVEL_M already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 138
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_ECLEVEL_Q already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 143
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_ECLEVEL_H already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 148
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QRSPEC_VERSION_MAX already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 160
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QRSPEC_WIDTH_MAX already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 165
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QRCAP_WIDTH already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 172
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QRCAP_WORDS already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 177
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QRCAP_REMINDER already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 182
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QRCAP_EC already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 187
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant STRUCTURE_HEADER_BITS already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 196
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant MAX_STRUCTURED_SYMBOLS already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 201
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant N1 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 210
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant N2 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 215
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant N3 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 220
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant N4 already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 225
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_FIND_BEST_MASK already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 234
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_FIND_FROM_RANDOM already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 239
+[11-Mar-2025 09:05:41 UTC] PHP Warning:  Constant QR_DEFAULT_MASK already defined in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 244
+[11-Mar-2025 09:05:41 UTC] PHP Fatal error:  Cannot declare class QRcode, because the name is already in use in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/tcpdf/include/barcodes/qrcode.php on line 265
+[11-Mar-2025 09:27:26 UTC] PHP Parse error:  syntax error, unexpected identifier "printQRCode", expecting "," or ";" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 122
+[11-Mar-2025 09:27:28 UTC] PHP Parse error:  syntax error, unexpected identifier "printQRCode", expecting "," or ";" in /home/planatir/public_html/prodution_barcode/Tire Finishing 6/process.php on line 122

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tire Details Entry">
+    <meta name="author" content="Enterprise Development">
+    <link rel="shortcut icon" href="assets/custom/images/shortcut.png">
+
+    <title>Tire Details Entry</title>
+    
+    <!-- CSS Links -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/custom/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 form-container">
+                <form id="tireDetailsForm" action="save_tire_data.php" method="POST">
+                    <!-- Serial Number (Auto-filled) -->
+                    <div class="form-group">
+                        <label for="serialNumber">Serial Number</label>
+                        <input type="text" id="serialNumber" name="serialNumber" class="form-control" readonly />
+                    </div>
+                    
+                    <!-- Tire Code (Dropdown) -->
+                    <div class="form-group">
+                        <label for="icode">Tire Code</label>
+                        <select id="icode" name="icode" class="form-control" required>
+                            <option value="">Select Tire Code</option>
+                            <!-- Options will be populated dynamically -->
+                        </select>
+                    </div>
+    
+                    <!-- Auto-filled Fields -->
+                    <div class="form-group">
+                        <label for="descriptionField">Description</label>
+                        <input type="text" id="descriptionField" name="description" class="form-control" readonly />
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="brand">Brand</label>
+                        <input type="text" id="brand" name="brand" class="form-control" readonly />
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="sizeField">Size</label>
+                        <input type="text" id="sizeField" name="size" class="form-control" readonly />
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="tireWeight">Green Weight</label>
+                        <input type="text" id="tireWeight" name="tireWeight" class="form-control" readonly />
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="pressNumber">Press Number</label>
+                        <input type="text" id="pressNumber" name="pressNumber" class="form-control" readonly />
+                    </div>
+    
+                    <!-- Submit Button -->
+                    <div class="pt-1 mb-4">
+                        <button type="submit" class="btn btn-dark btn-lg btn-block">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Populate Tire Code Dropdown
+            function populateicodes() {
+                const icodeSelect = document.getElementById('icode');
+                
+                fetch('get_tire_codes.php')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.icodes && data.icodes.length > 0) {
+                            data.icodes.forEach(code => {
+                                const option = document.createElement('option');
+                                option.value = code;
+                                option.textContent = code;
+                                icodeSelect.appendChild(option);
+                            });
+                        } else {
+                            alert('No tire codes found in the database.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Error fetching tire codes:", error);
+                        alert("Unable to fetch tire codes. Please try again.");
+                    });
+            }
+
+            // Serial Number Generation
+            function generateSerialNumber() {
+                return fetch('generate_serial_number.php')
+                    .then(response => response.json())
+                    .then(data => data.serialNumber)
+                    .catch(error => {
+                        console.error("Error fetching serial number:", error);
+                        return ''; // Return an empty string in case of error
+                    });
+            }
+    
+            // Set Serial Number on Page Load
+            const serialNumberField = document.getElementById('serialNumber');
+            generateSerialNumber().then(serialNumber => {
+                if (serialNumber) {
+                    serialNumberField.value = serialNumber;
+                } else {
+                    alert('Failed to generate serial number.');
+                }
+            });
+    
+            // Tire Code Lookup
+            const icodeSelect = document.getElementById('icode');
+            const descriptionField = document.getElementById('descriptionField');
+            const brandField = document.getElementById('brand');
+            const sizeField = document.getElementById('sizeField');
+            const tireWeightField = document.getElementById('tireWeight');
+            const pressNumberField = document.getElementById('pressNumber');
+    
+            icodeSelect.addEventListener('change', function() {
+                const icode = this.value;
+                
+                if (icode) {
+                    fetch(`get_tire_details.php?icode=${encodeURIComponent(icode)}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.error) {
+                                alert(data.error);
+                                descriptionField.value = "";
+                                brandField.value = "";
+                                sizeField.value = "";
+                                tireWeightField.value = "";
+                                pressNumberField.value = "";
+                            } else {
+                                descriptionField.value = data.description || "N/A";
+                                brandField.value = data.brand || "Unknown";
+                                sizeField.value = data.size || "N/A";
+                                tireWeightField.value = data.green_weight || "N/A";
+                                pressNumberField.value = data.press_number || "N/A";
+                            }
+                        })
+                        .catch(error => {
+                            console.error("Error fetching tire details:", error);
+                            alert("Unable to fetch tire details. Please try again.");
+                        });
+                }
+            });
+
+            // Populate tire codes on page load
+            populateicodes();
+        });
+    </script>
+</body>
+</html>

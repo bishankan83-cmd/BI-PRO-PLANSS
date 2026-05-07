@@ -1,0 +1,201 @@
+[07-Feb-2024 07:51:51 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 13
+[07-Feb-2024 07:51:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 13
+[07-Feb-2024 07:51:51 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 16
+[07-Feb-2024 07:51:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 16
+[07-Feb-2024 07:51:51 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 17
+[07-Feb-2024 07:51:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 17
+[07-Feb-2024 07:52:23 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 146
+[07-Feb-2024 07:52:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 146
+[07-Feb-2024 07:52:23 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 149
+[07-Feb-2024 07:52:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 149
+[07-Feb-2024 07:52:23 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 150
+[07-Feb-2024 07:52:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 150
+[07-Feb-2024 07:53:11 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 146
+[07-Feb-2024 07:53:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 146
+[07-Feb-2024 07:53:11 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 149
+[07-Feb-2024 07:53:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 149
+[07-Feb-2024 07:53:11 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/qad_manager.php on line 150
+[07-Feb-2024 07:53:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/qad_manager.php on line 150
+[07-Feb-2024 08:18:23 UTC] PHP Warning:  Undefined variable $connection in /home/planatir/public_html/includes/qad_manager.php on line 14
+[07-Feb-2024 08:18:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/planatir/public_html/includes/qad_manager.php:14
+Stack trace:
+#0 /home/planatir/public_html/includes/qad_manager.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/qad_manager.php on line 14
+[07-Feb-2024 08:18:25 UTC] PHP Warning:  Undefined variable $connection in /home/planatir/public_html/includes/qad_manager.php on line 14
+[07-Feb-2024 08:18:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/planatir/public_html/includes/qad_manager.php:14
+Stack trace:
+#0 /home/planatir/public_html/includes/qad_manager.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/qad_manager.php on line 14
+[07-Feb-2024 08:19:34 UTC] PHP Warning:  Undefined variable $connection in /home/planatir/public_html/includes/qad_manager.php on line 14
+[07-Feb-2024 08:19:34 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/planatir/public_html/includes/qad_manager.php:14
+Stack trace:
+#0 /home/planatir/public_html/includes/qad_manager.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/qad_manager.php on line 14
+[07-Feb-2024 08:19:40 UTC] PHP Warning:  Undefined variable $connection in /home/planatir/public_html/includes/qad_manager.php on line 14
+[07-Feb-2024 08:19:40 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/planatir/public_html/includes/qad_manager.php:14
+Stack trace:
+#0 /home/planatir/public_html/includes/qad_manager.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/qad_manager.php on line 14
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $totalCStock in /home/planatir/public_html/includes/planning_dashboard.php on line 5
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $totalnew in /home/planatir/public_html/includes/planning_dashboard.php on line 6
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $totalCStockk in /home/planatir/public_html/includes/planning_dashboard.php on line 7
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $totaltobe in /home/planatir/public_html/includes/planning_dashboard.php on line 8
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $totalcount in /home/planatir/public_html/includes/planning_dashboard.php on line 9
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $result in /home/planatir/public_html/includes/planning_dashboard.php on line 10
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $erpCount in /home/planatir/public_html/includes/planning_dashboard.php on line 11
+[01-Jul-2024 06:16:28 UTC] PHP Warning:  Undefined variable $totalcountt in /home/planatir/public_html/includes/planning_dashboard.php on line 14
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $totalCStock in /home/planatir/public_html/includes/planning_dashboard.php on line 5
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $totalnew in /home/planatir/public_html/includes/planning_dashboard.php on line 6
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $totalCStockk in /home/planatir/public_html/includes/planning_dashboard.php on line 7
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $totaltobe in /home/planatir/public_html/includes/planning_dashboard.php on line 8
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $totalcount in /home/planatir/public_html/includes/planning_dashboard.php on line 9
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $result in /home/planatir/public_html/includes/planning_dashboard.php on line 10
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $erpCount in /home/planatir/public_html/includes/planning_dashboard.php on line 11
+[06-Jul-2024 23:39:01 UTC] PHP Warning:  Undefined variable $totalcountt in /home/planatir/public_html/includes/planning_dashboard.php on line 14
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/gm_dashboard.php on line 181
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/gm_dashboard.php on line 181
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/gm_dashboard.php on line 184
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/gm_dashboard.php on line 184
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/gm_dashboard.php on line 185
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/gm_dashboard.php on line 185
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $totalCStock in /home/planatir/public_html/includes/gm_dashboard.php on line 196
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $totalnew in /home/planatir/public_html/includes/gm_dashboard.php on line 197
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $totalCStockk in /home/planatir/public_html/includes/gm_dashboard.php on line 198
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $totaltobe in /home/planatir/public_html/includes/gm_dashboard.php on line 199
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $totalcount in /home/planatir/public_html/includes/gm_dashboard.php on line 200
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $result in /home/planatir/public_html/includes/gm_dashboard.php on line 201
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $erpCount in /home/planatir/public_html/includes/gm_dashboard.php on line 202
+[20-Feb-2025 05:04:29 UTC] PHP Warning:  Undefined variable $totalcountt in /home/planatir/public_html/includes/gm_dashboard.php on line 204
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 277
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 277
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 280
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 280
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 281
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 281
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $totalCStock in /home/planatir/public_html/includes/planning_dashboard.php on line 359
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $totalnew in /home/planatir/public_html/includes/planning_dashboard.php on line 360
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $totalCStockk in /home/planatir/public_html/includes/planning_dashboard.php on line 361
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $totaltobe in /home/planatir/public_html/includes/planning_dashboard.php on line 362
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $totalcount in /home/planatir/public_html/includes/planning_dashboard.php on line 363
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $result in /home/planatir/public_html/includes/planning_dashboard.php on line 364
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $erpCount in /home/planatir/public_html/includes/planning_dashboard.php on line 365
+[20-Feb-2025 05:04:53 UTC] PHP Warning:  Undefined variable $totalcountt in /home/planatir/public_html/includes/planning_dashboard.php on line 367
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/gm_dashboard.php on line 181
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/gm_dashboard.php on line 181
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/gm_dashboard.php on line 184
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/gm_dashboard.php on line 184
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/gm_dashboard.php on line 185
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/gm_dashboard.php on line 185
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $totalCStock in /home/planatir/public_html/includes/gm_dashboard.php on line 196
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $totalnew in /home/planatir/public_html/includes/gm_dashboard.php on line 197
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $totalCStockk in /home/planatir/public_html/includes/gm_dashboard.php on line 198
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $totaltobe in /home/planatir/public_html/includes/gm_dashboard.php on line 199
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $totalcount in /home/planatir/public_html/includes/gm_dashboard.php on line 200
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $result in /home/planatir/public_html/includes/gm_dashboard.php on line 201
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $erpCount in /home/planatir/public_html/includes/gm_dashboard.php on line 202
+[22-Feb-2025 15:47:08 UTC] PHP Warning:  Undefined variable $totalcountt in /home/planatir/public_html/includes/gm_dashboard.php on line 204
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 277
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 277
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 280
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 280
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 281
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 281
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $totalCStock in /home/planatir/public_html/includes/planning_dashboard.php on line 359
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $totalnew in /home/planatir/public_html/includes/planning_dashboard.php on line 360
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $totalCStockk in /home/planatir/public_html/includes/planning_dashboard.php on line 361
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $totaltobe in /home/planatir/public_html/includes/planning_dashboard.php on line 362
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $totalcount in /home/planatir/public_html/includes/planning_dashboard.php on line 363
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $result in /home/planatir/public_html/includes/planning_dashboard.php on line 364
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $erpCount in /home/planatir/public_html/includes/planning_dashboard.php on line 365
+[23-Feb-2025 03:56:01 UTC] PHP Warning:  Undefined variable $totalcountt in /home/planatir/public_html/includes/planning_dashboard.php on line 367
+[05-Mar-2025 10:30:38 UTC] PHP Warning:  Undefined array key "icode" in /home/planatir/public_html/includes/check.php on line 41
+[05-Mar-2025 10:31:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total_quantity DESC' at line 10 in /home/planatir/public_html/includes/check.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/check.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/check.php on line 32
+[05-Mar-2025 10:32:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total_quantity DESC' at line 10 in /home/planatir/public_html/includes/check.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/check.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/check.php on line 32
+[05-Mar-2025 10:32:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total_quantity DESC' at line 10 in /home/planatir/public_html/includes/check.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/check.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/check.php on line 32
+[05-Mar-2025 10:32:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total_quantity DESC' at line 10 in /home/planatir/public_html/includes/check.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/check.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/check.php on line 32
+[05-Mar-2025 10:33:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total_quantity DESC' at line 10 in /home/planatir/public_html/includes/check.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/check.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/check.php on line 32
+[05-Mar-2025 10:36:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total_quantity DESC' at line 10 in /home/planatir/public_html/includes/check.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/check.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/check.php on line 32
+[05-Mar-2025 10:36:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total_quantity DESC' at line 10 in /home/planatir/public_html/includes/check.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/check.php(32): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/check.php on line 32
+[18-Apr-2025 10:41:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'127.0.0.1' (using password: YES) in /home/planatir/public_html/includes/lab_dashboard.php:55
+Stack trace:
+#0 /home/planatir/public_html/includes/lab_dashboard.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/lab_dashboard.php on line 55
+[18-Apr-2025 10:41:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'127.0.0.1' (using password: YES) in /home/planatir/public_html/includes/lab_dashboard.php:55
+Stack trace:
+#0 /home/planatir/public_html/includes/lab_dashboard.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/lab_dashboard.php on line 55
+[18-Apr-2025 10:43:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'127.0.0.1' (using password: YES) in /home/planatir/public_html/includes/lab_dashboard.php:55
+Stack trace:
+#0 /home/planatir/public_html/includes/lab_dashboard.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/lab_dashboard.php on line 55
+[18-Apr-2025 10:59:03 UTC] PHP Warning:  Undefined variable $connection in /home/planatir/public_html/includes/qad_manager.php on line 14
+[18-Apr-2025 10:59:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/planatir/public_html/includes/qad_manager.php:14
+Stack trace:
+#0 /home/planatir/public_html/includes/qad_manager.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/qad_manager.php on line 14
+[18-Apr-2025 10:59:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'127.0.0.1' (using password: YES) in /home/planatir/public_html/includes/show_mixing.php:32
+Stack trace:
+#0 /home/planatir/public_html/includes/show_mixing.php(32): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/show_mixing.php on line 32
+[18-Apr-2025 10:59:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'127.0.0.1' (using password: YES) in /home/planatir/public_html/includes/lab_dashboard.php:55
+Stack trace:
+#0 /home/planatir/public_html/includes/lab_dashboard.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/lab_dashboard.php on line 55
+[18-Apr-2025 10:59:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'planatir_task_managemen'@'127.0.0.1' (using password: YES) in /home/planatir/public_html/includes/lab_dashboard.php:55
+Stack trace:
+#0 /home/planatir/public_html/includes/lab_dashboard.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/planatir/public_html/includes/lab_dashboard.php on line 55
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 277
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 277
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 280
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 280
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/planatir/public_html/includes/planning_dashboard.php on line 281
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/planatir/public_html/includes/planning_dashboard.php on line 281
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $totalCStock in /home/planatir/public_html/includes/planning_dashboard.php on line 367
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $totalnew in /home/planatir/public_html/includes/planning_dashboard.php on line 368
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $totalCStockk in /home/planatir/public_html/includes/planning_dashboard.php on line 369
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $totaltobe in /home/planatir/public_html/includes/planning_dashboard.php on line 370
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $totalcount in /home/planatir/public_html/includes/planning_dashboard.php on line 371
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $result in /home/planatir/public_html/includes/planning_dashboard.php on line 372
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $erpCount in /home/planatir/public_html/includes/planning_dashboard.php on line 373
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $totalcountt in /home/planatir/public_html/includes/planning_dashboard.php on line 375
+[18-Apr-2025 10:59:56 UTC] PHP Warning:  Undefined variable $data in /home/planatir/public_html/includes/planning_dashboard.php on line 867

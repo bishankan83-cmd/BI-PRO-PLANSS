@@ -1,0 +1,104 @@
+{
+  "page_title": "Panel de Cliente - Sistema de Gestión de Neumáticos",
+  
+  "nav_customer_service": "Servicio al Cliente",
+  "nav_dashboard": "Panel",
+  "nav_overview": "Resumen",
+  "nav_orders": "Pedidos",
+  "nav_new_order": "Nuevo Pedido",
+  "nav_my_orders": "Mis Pedidos",
+  "nav_complaints": "Quejas",
+  "nav_new_complaint": "Nueva Queja",
+  "nav_my_complaints": "Mis Quejas",
+  "nav_feedback": "Comentarios",
+  "nav_submit_feedback": "Enviar Comentarios",
+  "nav_my_feedback": "Mis Comentarios",
+  "nav_account": "Cuenta",
+  "nav_profile": "Perfil",
+  "nav_settings": "Configuración",
+  "nav_support": "Soporte",
+  "nav_logout": "Cerrar Sesión",
+  
+  "search_placeholder": "Buscar pedidos, quejas y comentarios...",
+  
+  "welcome_message": "¡Bienvenido de nuevo, {{name}}!",
+  "dashboard_subtitle": "Gestione sus pedidos, realice seguimiento de quejas y comparta sus valiosos comentarios",
+  
+  "btn_new_order": "Nuevo Pedido",
+  "btn_new_complaint": "Nueva Queja",
+  "btn_view_all": "Ver Todo",
+  
+  "section_order_statistics": "Estadísticas de Pedidos",
+  "section_complaint_statistics": "Estadísticas de Quejas",
+  "section_feedback_overview": "Resumen de Comentarios",
+  "section_recent_activity": "Actividad Reciente",
+  "section_performance_metrics": "Métricas de Rendimiento",
+  
+  "trend_total": "Total",
+  "trend_waiting": "Esperando",
+  "trend_active": "Activo",
+  "trend_done": "Completado",
+  "trend_success": "Éxito",
+  "trend_complete": "Completo",
+  
+  "stat_total_orders": "Total de Pedidos",
+  "stat_total_orders_desc": "Todos los pedidos realizados",
+  "stat_pending_orders": "Pedidos Pendientes",
+  "stat_pending_orders_desc": "En espera de procesamiento",
+  "stat_in_progress_orders": "En Proceso",
+  "stat_in_progress_orders_desc": "Siendo procesados",
+  "stat_completed_orders": "Pedidos Completados",
+  "stat_completed_orders_desc": "Entregados exitosamente",
+  
+  "stat_total_complaints": "Total de Quejas",
+  "stat_total_complaints_desc": "Todas las quejas enviadas",
+  "stat_pending_complaints": "Revisión Pendiente",
+  "stat_pending_complaints_desc": "En espera de respuesta",
+  "stat_in_progress_complaints": "En Proceso",
+  "stat_in_progress_complaints_desc": "Siendo resueltas",
+  "stat_completed_complaints": "Completadas",
+  "stat_completed_complaints_desc": "Resueltas exitosamente",
+  
+  "stat_total_feedback": "Total de Comentarios",
+  "stat_total_feedback_desc": "Sus valiosos comentarios",
+  "stat_average_rating": "Calificación Promedio",
+  "stat_average_rating_desc": "Su puntuación de satisfacción",
+  
+  "stat_resolution_rate": "Tasa de Resolución",
+  "stat_resolution_rate_desc": "Quejas resueltas exitosamente",
+  "stat_order_completion": "Finalización de Pedidos",
+  "stat_order_completion_desc": "Pedidos entregados exitosamente",
+  
+  "card_recent_orders": "Pedidos Recientes",
+  "card_recent_complaints": "Quejas Recientes",
+  "card_recent_feedback": "Comentarios Recientes",
+  
+  "label_order": "Pedido",
+  "label_complaint": "Queja",
+  "label_feedback": "Comentario",
+  "label_rating": "Calificación",
+  "label_order_details": "Detalles del Pedido",
+  "label_no_feedback_text": "Sin texto de comentarios",
+  
+  "status_pending": "Pendiente",
+  "status_in_progress": "En Proceso",
+  "status_in_process": "En Proceso",
+  "status_completed": "Completado",
+  "status_closed": "Cerrado",
+  "status_resolved": "Resuelto",
+  
+  "empty_no_orders": "Aún No Hay Pedidos",
+  "empty_no_orders_desc": "No ha realizado ningún pedido",
+  "empty_place_first_order": "Realice Su Primer Pedido",
+  
+  "empty_no_complaints": "Aún No Hay Quejas",
+  "empty_no_complaints_desc": "No ha enviado ninguna queja",
+  "empty_file_first_complaint": "Presente Su Primera Queja",
+  
+  "empty_no_feedback": "Aún No Hay Comentarios",
+  "empty_no_feedback_desc": "Comparta su experiencia con nosotros",
+  "empty_submit_first_feedback": "Envíe Su Primer Comentario",
+  
+  "notification_pending_items": "Tiene {{count}} elementos pendientes",
+  "notification_no_pending": "No hay notificaciones pendientes"
+}

@@ -1,0 +1,30 @@
+; PHP Configuration
+
+; Error Reporting
+error_reporting = E_ALL
+display_errors = On
+
+; Maximum Execution Time (in seconds)
+max_execution_time = 300000
+
+; Maximum Input Time (in seconds)
+max_input_time = 600000
+
+; Memory Limit (in megabytes)
+memory_limit = 128M
+
+; File Uploads
+upload_max_filesize = 32M
+post_max_size = 32M
+
+; Date and Time
+date.timezone = "America/New_York"
+
+; Session
+session.save_path = "/tmp"
+
+; File System
+open_basedir = "/var/www/html"
+
+; Error Logging
+error_log = /var/log/php_error.log

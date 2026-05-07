@@ -1,0 +1,4 @@
+Date,Customer Name,Work order No,Reference Number,ERP Number,Item code,Tyre Size,Brand,COLOUR,FIT,RIM,Constrution,Average Finish Tyre Weight - kgs,Per Tyre Volume / cbm,Qty New- pcs,Total Volume - cbm,Total Tonage - kgs
+3/4/2024,STOCK ORDER-April ,1000,Magna-Stock,8000,166321,31x10-20 ,SKIDSOLID,BLACK,STD,7.5,2 LAYER,62.5,0.1446,25,3.615,1562.5
+3/4/2024,STOCK ORDER-April ,1000,Magna-Stock,8000,166327,31x10-20 (LEFT),SKIDSOLID,BLACK,CLIP-LEFT,7.5,2 LAYER,62.5,0.1446,25,3.615,1562.5
+3/4/2024,STOCK ORDER-April ,1000,Magna-Stock,8000,166328,31x10-20 (RIGHT),SKIDSOLID,BLACK,CLIP-RIGHT,7.5,2 LAYER,62.5,0.1446,25,3.615,1562.5

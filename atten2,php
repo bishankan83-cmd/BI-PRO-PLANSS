@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Data Entry System</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .form-section, .excel-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #333;
+            border-bottom: 3px solid #4facfe;
+            padding-bottom: 10px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+            font-size: 0.95rem;
+        }
+
+        .required {
+            color: #e74c3c;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: #f8f9fa;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #4facfe;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%);
+            color: white;
+            box-shadow: 0 5px 15px rgba(86, 171, 47, 0.4);
+        }
+
+        .btn-info {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
+        }
+
+        .btn-warning {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .success {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .error {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .info {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .data-table th,
+        .data-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+            font-size: 0.85rem;
+        }
+
+        .data-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        .data-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .file-upload-area {
+            border: 2px dashed #4facfe;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            background: #f8f9ff;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .file-upload-area:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .file-upload-area.dragover {
+            border-color: #56ab2f;
+            background: #f0fff0;
+        }
+
+        .upload-icon {
+            font-size: 3rem;
+            color: #4facfe;
+            margin-bottom: 15px;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .btn-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Excel Data Entry System</h1>
+            <p>Add data and export to Excel files seamlessly</p>
+        </div>
+
+        <div class="main-content">
+            <!-- Form Section -->
+            <div class="form-section">
+                <h2 class="section-title">📝 Data Entry Form</h2>
+                
+                <div id="message"></div>
+
+                <form id="dataForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="department">Department <span class="required">*</span></label>
+                            <select id="department" name="department" required>
+                                <option value="">Select Department</option>
+                                <option value="IT Department">IT Department</option>
+                                <option value="HR Department">HR Department</option>
+                                <option value="Finance Department">Finance Department</option>
+                                <option value="Marketing Department">Marketing Department</option>
+                                <option value="Operations Department">Operations Department</option>
+                                <option value="Sales Department">Sales Department</option>
+                                <option value="Customer Service">Customer Service</option>
+                                <option value="Research & Development">Research & Development</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Employee Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="Enter full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="number">Employee Number</label>
+                            <input type="text" id="number" name="number" placeholder="e.g., EMP001">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date_time">Date & Time <span class="required">*</span></label>
+                            <input type="datetime-local" id="date_time" name="date_time" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location_id">Location ID <span class="required">*</span></label>
+                            <select id="location_id" name="location_id" required>
+                                <option value="">Select Location</option>
+                                <option value="101">Main Entrance (101)</option>
+                                <option value="102">Security Gate (102)</option>
+                                <option value="103">Executive Floor (103)</option>
+                                <option value="104">Parking Garage (104)</option>
+                                <option value="105">Emergency Exit (105)</option>
+                                <option value="106">Conference Room (106)</option>
+                                <option value="107">Cafeteria (107)</option>
+                                <option value="108">Server Room (108)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="id_number">ID Number <span class="required">*</span></label>
+                            <input type="text" id="id_number" name="id_number" required placeholder="e.g., ID12345">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="verify_code">Verification Code</label>
+                            <input type="text" id="verify_code" name="verify_code" placeholder="Auto-generated">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="card_no">Card Number</label>
+                            <input type="text" id="card_no" name="card_no" placeholder="Auto-generated">
+                        </div>
+                    </div>
+
+                    <div class="btn-container">
+                        <button type="submit" class="btn btn-primary">➕ Add Record</button>
+                        <button type="button" class="btn btn-info" onclick="clearForm()">🧹 Clear Form</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Excel Section -->
+            <div class="excel-section">
+                <h2 class="section-title">📈 Excel Operations</h2>
+
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <div class="stat-number" id="recordCount">0</div>
+                        <div class="stat-label">Records</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" id="exportCount">0</div>
+                        <div class="stat-label">Exports</div>
+                    </div>
+                </div>
+
+                <div class="file-upload-area" id="uploadArea">
+                    <div class="upload-icon">📁</div>
+                    <p><strong>Load Existing Excel File</strong></p>
+                    <p>Drag & drop or click to select</p>
+                    <input type="file" id="fileInput" accept=".xlsx,.xls" style="display: none;">
+                </div>
+
+                <div class="btn-container">
+                    <button class="btn btn-success" onclick="exportToExcel()">📤 Export to Excel</button>
+                    <button class="btn btn-info" onclick="downloadTemplate()">📋 Download Template</button>
+                    <button class="btn btn-warning" onclick="clearAllData()">🗑️ Clear All Data</button>
+                </div>
+
+                <div id="excelMessage"></div>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div style="padding: 0 40px 40px;">
+            <h2 style="margin-bottom: 20px; color: #333;">📋 Current Data</h2>
+            <div style="overflow-x: auto;">
+                <table class="data-table" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Department</th>
+                            <th>Name</th>
+                            <th>No.</th>
+                            <th>Date/Time</th>
+                            <th>Location ID</th>
+                            <th>ID Number</th>
+                            <th>Verify Code</th>
+                            <th>Card No</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dataTableBody">
+                        <!-- Data will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let dataRecords = [];
+        let exportCounter = 0;
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            setCurrentDateTime();
+            setupFileUpload();
+            updateStats();
+            
+            // Load sample data
+            loadSampleData();
+        });
+
+        // Set current date and time
+        function setCurrentDateTime() {
+            const now = new Date();
+            now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+            document.getElementById('date_time').value = now.toISOString().slice(0, 16);
+        }
+
+        // Form submission
+        document.getElementById('dataForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Add timestamp for uniqueness
+            data.timestamp = Date.now();
+            
+            // Add to records array
+            dataRecords.push(data);
+            
+            // Update display
+            updateDataTable();
+            updateStats();
+            
+            // Show success message
+            showMessage('✅ Record added successfully!', 'success', 'message');
+            
+            // Clear form and reset datetime
+            clearForm();
+        });
+
+        // Update data table
+        function updateDataTable() {
+            const tbody = document.getElementById('dataTableBody');
+            tbody.innerHTML = '';
+            
+            dataRecords.forEach((record, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${record.department}</td>
+                    <td>${record.name}</td>
+                    <td>${record.number || '-'}</td>
+                    <td>${formatDateTime(record.date_time)}</td>
+                    <td>${record.location_id}</td>
+                    <td>${record.id_number}</td>
+                    <td>${record.verify_code || '-'}</td>
+                    <td>${record.card_no || '-'}</td>
+                    <td>
+                        <button class="btn btn-warning" style="padding: 5px 10px; font-size: 0.8rem;" onclick="deleteRecord(${index})">🗑️</button>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // Delete record
+        function deleteRecord(index) {
+            if (confirm('Are you sure you want to delete this record?')) {
+                dataRecords.splice(index, 1);
+                updateDataTable();
+                updateStats();
+                showMessage('Record deleted successfully', 'info', 'excelMessage');
+            }
+        }
+
+        // Export to Excel
+        function exportToExcel() {
+            if (dataRecords.length === 0) {
+                showMessage('⚠️ No data to export!', 'error', 'excelMessage');
+                return;
+            }
+
+            // Prepare data for Excel
+            const excelData = dataRecords.map(record => ({
+                'Department': record.department,
+                'Name': record.name,
+                'No.': record.number || '',
+                'Date/Time': record.date_time,
+                'Location ID': record.location_id,
+                'ID Number': record.id_number,
+                'VerifyCode': record.verify_code || '',
+                'CardNo': record.card_no || ''
+            }));
+
+            // Create workbook
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.json_to_sheet(excelData);
+
+            // Auto-size columns
+            const colWidths = [
+                { wch: 20 }, // Department
+                { wch: 25 }, // Name
+                { wch: 10 }, // No.
+                { wch: 20 }, // Date/Time
+                { wch: 12 }, // Location ID
+                { wch: 15 }, // ID Number
+                { wch: 15 }, // VerifyCode
+                { wch: 15 }  // CardNo
+            ];
+            ws['!cols'] = colWidths;
+
+            // Add worksheet to workbook
+            XLSX.utils.book_append_sheet(wb, ws, 'Access Log Data');
+
+            // Generate filename with timestamp
+            const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
+            const filename = `access_log_${timestamp}.xlsx`;
+
+            // Download file
+            XLSX.writeFile(wb, filename);
+
+            exportCounter++;
+            updateStats();
+            showMessage(`📤 Excel file "${filename}" downloaded successfully!`, 'success', 'excelMessage');
+        }
+
+        // Download template
+        function downloadTemplate() {
+            const templateData = [{
+                'Department': 'IT Department',
+                'Name': 'John Smith',
+                'No.': 'EMP001',
+                'Date/Time': '2025-06-02T14:30:00',
+                'Location ID': '101',
+                'ID Number': 'ID12345',
+                'VerifyCode': 'VF789XYZ',
+                'CardNo': 'CARD001'
+            }];
+
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.json_to_sheet(templateData);
+
+            // Auto-size columns
+            const colWidths = [
+                { wch: 20 }, { wch: 25 }, { wch: 10 }, { wch: 20 },
+                { wch: 12 }, { wch: 15 }, { wch: 15 }, { wch: 15 }
+            ];
+            ws['!cols'] = colWidths;
+
+            XLSX.utils.book_append_sheet(wb, ws, 'Template');
+            XLSX.writeFile(wb, 'access_log_template.xlsx');
+
+            showMessage('📋 Template downloaded successfully!', 'success', 'excelMessage');
+        }
+
+        // Setup file upload
+        function setupFileUpload() {
+            const uploadArea = document.getElementById('uploadArea');
+            const fileInput = document.getElementById('fileInput');
+
+            uploadArea.addEventListener('click', () => fileInput.click());
+
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+
+            uploadArea.addEventListener('dragleave', () => {
+                uploadArea.classList.remove('dragover');
+            });
+
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    handleFileUpload(files[0]);
+                }
+            });
+
+            fileInput.addEventListener('change', (e) => {
+                if (e.target.files.length > 0) {
+                    handleFileUpload(e.target.files[0]);
+                }
+            });
+        }
+
+        // Handle file upload
+        function handleFileUpload(file) {
+            if (!file.name.match(/\.(xlsx|xls)$/)) {
+                showMessage('⚠️ Please upload only Excel files (.xlsx or .xls)', 'error', 'excelMessage');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = e.target.result;
+                    const workbook = XLSX.read(data, { type: 'binary' });
+                    const sheetName = workbook.SheetNames[0];
+                    const worksheet = workbook.Sheets[sheetName];
+                    const jsonData = XLSX.utils.sheet_to_json(worksheet);
+
+                    // Convert Excel data to our format
+                    const importedRecords = jsonData.map(row => ({
+                        department: row['Department'] || '',
+                        name: row['Name'] || '',
+                        number: row['No.'] || '',
+                        date_time: row['Date/Time'] || '',
+                        location_id: row['Location ID'] || '',
+                        id_number: row['ID Number'] || '',
+                        verify_code: row['VerifyCode'] || '',
+                        card_no: row['CardNo'] || '',
+                        timestamp: Date.now() + Math.random() // Ensure uniqueness
+                    }));
+
+                    // Add to existing records
+                    dataRecords = dataRecords.concat(importedRecords);
+                    updateDataTable();
+                    updateStats();
+
+                    showMessage(`📁 Successfully imported ${importedRecords.length} records from ${file.name}`, 'success', 'excelMessage');
+                } catch (error) {
+                    showMessage('❌ Error reading Excel file: ' + error.message, 'error', 'excelMessage');
+                }
+            };
+            reader.readAsBinaryString(file);
+        }
+
+        // Load sample data
+        function loadSampleData() {
+            const sampleData = [
+                {
+                    department: 'IT Department',
+                    name: 'John Smith',
+                    number: 'EMP001',
+                    date_time: '2025-06-02T14:30',
+                    location_id: '101',
+                    id_number: 'ID12345',
+                    verify_code: 'VF789XYZ',
+                    card_no: 'CARD001',
+                    timestamp: Date.now() - 1000
+                },
+                {
+                    department: 'HR Department',
+                    name: 'Jane Doe',
+                    number: 'EMP002',
+                    date_time: '2025-06-02T13:15',
+                    location_id: '102',
+                    id_number: 'ID12346',
+                    verify_code: 'VF789ABC',
+                    card_no: 'CARD002',
+                    timestamp: Date.now() - 2000
+                }
+            ];
+
+            dataRecords = sampleData;
+            updateDataTable();
+            updateStats();
+        }
+
+        // Utility functions
+        function clearForm() {
+            document.getElementById('dataForm').reset();
+            setCurrentDateTime();
+        }
+
+        function clearAllData() {
+            if (confirm('Are you sure you want to clear all data? This cannot be undone.')) {
+                dataRecords = [];
+                updateDataTable();
+                updateStats();
+                showMessage('All data cleared', 'info', 'excelMessage');
+            }
+        }
+
+        function updateStats() {
+            document.getElementById('recordCount').textContent = dataRecords.length;
+            document.getElementById('exportCount').textContent = exportCounter;
+        }
+
+        function formatDateTime(dateTime) {
+            const date = new Date(dateTime);
+            return date.toLocaleString();
+        }
+
+        function showMessage(message, type, elementId) {
+            const messageDiv = document.getElementById(elementId);
+            messageDiv.innerHTML = `<div class="message ${type}">${message}</div>`;
+            
+            setTimeout(() => {
+                messageDiv.innerHTML = '';
+            }, 5000);
+        }
+
+        // Auto-generate codes
+        document.getElementById('id_number').addEventListener('input', function() {
+            if (this.value && !document.getElementById('verify_code').value) {
+                const code = 'VF' + Math.random().toString(36).substr(2, 6).toUpperCase();
+                document.getElementById('verify_code').value = code;
+            }
+        });
+
+        document.getElementById('number').addEventListener('input', function() {
+            if (this.value && !document.getElementById('card_no').value) {
+                const cardNo = 'CARD' + this.value.replace(/\D/g, '').padStart(3, '0');
+                document.getElementById('card_no').value = cardNo;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Import Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1 {
+            font-size: 28px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        .logo p {
+            color: #888;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .upload-area {
+            border: 2px dashed #667eea;
+            border-radius: 12px;
+            padding: 40px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: #f8f9ff;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .upload-area:hover {
+            background: #eef0ff;
+            border-color: #764ba2;
+        }
+
+        .upload-area.dragover {
+            background: #e8ebff;
+            border-color: #764ba2;
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .upload-area h3 {
+            color: #444;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .upload-area p {
+            color: #888;
+            font-size: 13px;
+        }
+
+        .upload-area input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+        }
+
+        .file-info {
+            display: none;
+            background: #f0fff4;
+            border: 1px solid #68d391;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #276749;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .file-info.show {
+            display: flex;
+        }
+
+        .btn-import {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-import:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+        }
+
+        .btn-import:active {
+            transform: translateY(0);
+        }
+
+        .btn-import:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .progress-bar {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .progress-bar.show {
+            display: block;
+        }
+
+        .progress-track {
+            background: #e2e8f0;
+            border-radius: 10px;
+            height: 8px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            animation: progress 2s ease-in-out infinite;
+        }
+
+        @keyframes progress {
+            0% { width: 0%; }
+            50% { width: 70%; }
+            100% { width: 100%; }
+        }
+
+        .progress-bar p {
+            text-align: center;
+            font-size: 13px;
+            color: #667eea;
+            margin-top: 8px;
+        }
+
+        .format-info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fffbeb;
+            border-radius: 8px;
+            border-left: 4px solid #f6ad55;
+        }
+
+        .format-info h4 {
+            color: #744210;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .format-info p {
+            color: #92400e;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>📊 Excel Importer</h1>
+            <p>Import your mix data into the database</p>
+        </div>
+
+        <form id="uploadForm" action="import_process.php" method="POST" enctype="multipart/form-data">
+            <div class="upload-area" id="uploadArea">
+                <input type="file" name="excel_file" id="fileInput" accept=".xlsx,.xls,.csv">
+                <div class="upload-icon">📁</div>
+                <h3>Drop your file here</h3>
+                <p>or click to browse — supports .xlsx, .xls, .csv</p>
+            </div>
+
+            <div class="file-info" id="fileInfo">
+                <span>📄</span>
+                <span id="fileName">No file selected</span>
+            </div>
+
+            <button type="submit" class="btn-import" id="submitBtn" disabled>
+                Import Data
+            </button>
+
+            <div class="progress-bar" id="progressBar">
+                <div class="progress-track">
+                    <div class="progress-fill"></div>
+                </div>
+                <p>Importing data, please wait...</p>
+            </div>
+        </form>
+
+        <div class="format-info">
+            <h4>⚠️ Expected Column Order (Row 1 = Headers)</h4>
+            <p>A: CompoundID &nbsp;|&nbsp; B: TestType &nbsp;|&nbsp; C: Workstation &nbsp;|&nbsp; D: MixDate<br>
+               E: Test_ID (e.g. 1001-2) &nbsp;|&nbsp; F: MH &nbsp;|&nbsp; G: ML &nbsp;|&nbsp; H: Tc10<br>
+               I: Tc90 &nbsp;|&nbsp; J: Ts2 &nbsp;|&nbsp; K: PassFail &nbsp;|&nbsp; L: TestTime</p>
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileName = document.getElementById('fileName');
+        const submitBtn = document.getElementById('submitBtn');
+        const uploadArea = document.getElementById('uploadArea');
+        const uploadForm = document.getElementById('uploadForm');
+        const progressBar = document.getElementById('progressBar');
+
+        fileInput.addEventListener('change', function () {
+            if (this.files.length > 0) {
+                fileName.textContent = this.files[0].name + ' (' + (this.files[0].size / 1024).toFixed(1) + ' KB)';
+                fileInfo.classList.add('show');
+                submitBtn.disabled = false;
+            }
+        });
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            fileInput.files = e.dataTransfer.files;
+            fileInput.dispatchEvent(new Event('change'));
+        });
+
+        uploadForm.addEventListener('submit', function () {
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Importing...';
+            progressBar.classList.add('show');
+        });
+    </script>
+</body>
+</html>
